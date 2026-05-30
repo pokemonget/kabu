@@ -15,17 +15,16 @@ interface MarketCapData {
 interface RankingData {
   date: string
   rank: number
-  code?: string          // 追加
-  name: string           // ← nameに変更
+  code?: string
+  name: string
   market_cap: number
 }
 
 interface PerPbrData {
   date: string
   category: string
-  per: number
-  pbr: number
-  extra_info?: string
+  per?: number
+  pbr?: number
 }
 
 export default function Home() {
@@ -57,12 +56,12 @@ export default function Home() {
         let ranking = await rankingRes.json()
         const perPbr = await perPbrRes.json()
 
-        // === ここを追加：scraperのデータ形式に合わせて変換 ===
+        // scraper.pyのデータ形式に合わせる変換処理
         ranking = ranking.map((item: any) => ({
           date: item.date,
           rank: item.rank,
           code: item.code,
-          name: item.name || item.company,   // name or company 両対応
+          name: item.name || item.company || '不明',
           market_cap: item.market_cap
         }))
 
@@ -98,4 +97,97 @@ export default function Home() {
     fetchData()
   }, [])
 
-  // ... 以下は変更なし（そのまま） ...
+  const handleDateRangeChange = (newStartDate: string, newEndDate: string) => {
+    setStartDate(newStartDate)
+    setEndDate(newEndDate)
+  }
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center min-h-screen">
+        <div className="text-center">
+          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-jpx-primary"></div>
+          <p className="mt-4 text-gray-600">データを読み込み中...</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (error || availableDates.length === 0) {
+    return (
+      <div className="max-w-4xl mx-auto py-12">
+        <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+          <h2 className="text-xl font-bold text-red-700 mb-2">⚠️ エラーが発生しました</h2>
+          <p className="text-red-600">{error || 'データが見つかりません。'}</p>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="space-y-6">
+      {/* 統計情報 */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="card">
+          <h3 className="text-sm font-semibold text-gray-600">利用可能な期間</h3>
+          <p className="text-2xl font-bold text-jpx-primary">
+            {availableDates.length} ヶ月
+          </p>
+        </div>
+        <div className="card">
+          <h3 className="text-sm font-semibold text-gray-600">開始日</h3>
+          <p className="text-2xl font-bold text-jpx-accent">{startDate}</p>
+        </div>
+        <div className="card">
+          <h3 className="text-sm font-semibold text-gray-600">最新更新</h3>
+          <p className="text-2xl font-bold text-jpx-secondary">{endDate}</p>
+        </div>
+      </div>
+
+      {/* 日時選択 */}
+      {availableDates.length > 1 && (
+        <DateRangePicker
+          onDateRangeChange={handleDateRangeChange}
+          availableDates={availableDates}
+        />
+      )}
+
+      {/* グラフ */}
+      <div className="space-y-6">
+        {marketCapByIndustry.length > 0 && (
+          <MarketCapByIndustryChart
+            data={marketCapByIndustry}
+            startDate={startDate}
+            endDate={endDate}
+          />
+        )}
+
+        {marketCapRanking.length > 0 && (
+          <MarketCapRankingChart
+            data={marketCapRanking}
+            startDate={startDate}
+            endDate={endDate}
+          />
+        )}
+
+        {perPbrStats.length > 0 && (
+          <>
+            <PerPbrStatsChart
+              data={perPbrStats}
+              startDate={startDate}
+              endDate={endDate}
+              metric="per"
+            />
+            <PerPbrStatsChart
+              data={perPbrStats}
+              startDate={startDate}
+              endDate={endDate}
+              metric="pbr"
+            />
+          </>
+        )}
+      </div>
+
+      {/* 注釈 */}
+      <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-8">
+        <h3 className="text-sm font-semibold text-blue-900 mb-2">📌 使用方法
