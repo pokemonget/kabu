@@ -56,7 +56,7 @@ export default function Home() {
         let ranking = await rankingRes.json()
         const perPbr = await perPbrRes.json()
 
-        // scraper.pyのデータ形式に合わせる変換処理
+        // scraper.pyの出力形式に合わせる
         ranking = ranking.map((item: any) => ({
           date: item.date,
           rank: item.rank,
@@ -69,7 +69,6 @@ export default function Home() {
         setMarketCapRanking(ranking)
         setPerPbrStats(perPbr)
 
-        // 利用可能な日付を取得
         const allDates = new Set<string>()
         industry.forEach((item: MarketCapData) => allDates.add(item.date))
         ranking.forEach((item: RankingData) => allDates.add(item.date))
@@ -83,11 +82,7 @@ export default function Home() {
           setEndDate(sortedDates[sortedDates.length - 1])
         }
       } catch (err) {
-        setError(
-          err instanceof Error
-            ? err.message
-            : 'An unknown error occurred'
-        )
+        setError(err instanceof Error ? err.message : 'An unknown error occurred')
         console.error('Data fetch error:', err)
       } finally {
         setLoading(false)
@@ -140,54 +135,4 @@ export default function Home() {
         </div>
         <div className="card">
           <h3 className="text-sm font-semibold text-gray-600">最新更新</h3>
-          <p className="text-2xl font-bold text-jpx-secondary">{endDate}</p>
-        </div>
-      </div>
-
-      {/* 日時選択 */}
-      {availableDates.length > 1 && (
-        <DateRangePicker
-          onDateRangeChange={handleDateRangeChange}
-          availableDates={availableDates}
-        />
-      )}
-
-      {/* グラフ */}
-      <div className="space-y-6">
-        {marketCapByIndustry.length > 0 && (
-          <MarketCapByIndustryChart
-            data={marketCapByIndustry}
-            startDate={startDate}
-            endDate={endDate}
-          />
-        )}
-
-        {marketCapRanking.length > 0 && (
-          <MarketCapRankingChart
-            data={marketCapRanking}
-            startDate={startDate}
-            endDate={endDate}
-          />
-        )}
-
-        {perPbrStats.length > 0 && (
-          <>
-            <PerPbrStatsChart
-              data={perPbrStats}
-              startDate={startDate}
-              endDate={endDate}
-              metric="per"
-            />
-            <PerPbrStatsChart
-              data={perPbrStats}
-              startDate={startDate}
-              endDate={endDate}
-              metric="pbr"
-            />
-          </>
-        )}
-      </div>
-
-      {/* 注釈 */}
-      <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-8">
-        <h3 className="text-sm font-semibold text-blue-900 mb-2">📌 使用方法
+          <p className="text-2xl font-bold text
