@@ -58,9 +58,9 @@ export default function MarketCapByIndustryChart({ data, startDate, endDate }: P
       }))
   }, [data])
 
-  // 正しい兆単位表示（百万円 → 兆円変換）
+  // 正しい兆単位表示（円 → 兆円変換）
   const formatYAxis = (value: number) => {
-    const trillion = value / 10_000_000   // 百万円単位 → 兆円
+    const trillion = value / 100_000_000_000   // 円単位 → 兆円
     return `${trillion.toFixed(1)}兆`
   }
 
