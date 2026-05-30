@@ -1,8 +1,6 @@
 'use client'
 
 import { useState, useCallback } from 'react'
-import { format, parse } from 'date-fns'
-import { ja } from 'date-fns/locale'
 
 interface DateRangePickerProps {
   onDateRangeChange: (startDate: string, endDate: string) => void
