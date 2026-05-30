@@ -1,162 +1,126 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import {
-  LineChart,
-  Line,
+  BarChart,
+  Bar,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   Legend,
   ResponsiveContainer,
+  CartesianGrid,
 } from 'recharts'
 
 interface RankingData {
   date: string
   rank: number
-  company: string
+  code?: string
+  name?: string
+  company?: string
   market_cap: number
 }
 
-interface MarketCapRankingChartProps {
+interface Props {
   data: RankingData[]
   startDate: string
   endDate: string
 }
 
-export default function MarketCapRankingChart({
-  data,
-  startDate,
-  endDate,
-}: MarketCapRankingChartProps) {
-  // Top 10企業のみを取得
-  const topCompanies = useMemo(() => {
-    const companies = new Map<string, number>()
-    data.forEach((item) => {
-      if (!companies.has(item.company)) {
-        companies.set(item.company, 0)
-      }
-    })
-    return Array.from(companies.keys())
-      .sort(
-        (a, b) =>
-          data.find((d) => d.company === b)?.market_cap || 0 -
-          (data.find((d) => d.company === a)?.market_cap || 0)
-      )
-      .slice(0, 10)
-  }, [data])
+export default function MarketCapRankingChart({ data, startDate, endDate }: Props) {
+  const [topN, setTopN] = useState<number>(10)
 
-  // データをフィルタリングして企業ごとにグループ化
-  const filteredData = useMemo(() => {
-    const filtered = data.filter(
-      (item) =>
-        item.date >= startDate &&
-        item.date <= endDate &&
-        topCompanies.includes(item.company)
-    )
+  const chartData = useMemo(() => {
+    if (!data || data.length === 0) return []
 
-    // 日付ごとにグループ化
-    const grouped = new Map<string, Map<string, number>>()
-    filtered.forEach((item) => {
-      if (!grouped.has(item.date)) {
-        grouped.set(item.date, new Map())
-      }
-      grouped.get(item.date)!.set(item.company, item.market_cap)
-    })
+    const latestDate = [...new Set(data.map(d => d.date))].sort().reverse()[0]
 
-    // チャートデータに変換
-    return Array.from(grouped.entries())
-      .sort(([dateA], [dateB]) => dateA.localeCompare(dateB))
-      .map(([date, companies]) => ({
-        date,
-        ...Object.fromEntries(companies),
-      }))
-  }, [data, startDate, endDate, topCompanies])
+    return data
+      .filter(item => item.date === latestDate && item.rank <= topN)
+      .sort((a, b) => a.rank - b.rank) // 順位順（1位が上）
+  }, [data, topN])
 
-  const [visibleCompanies, setVisibleCompanies] = useState<Set<string>>(
-    new Set(topCompanies)
-  )
-
-  const handleLegendClick = (e: any) => {
-    const company = e.dataKey
-    setVisibleCompanies((prev) => {
-      const next = new Set(prev)
-      if (next.has(company)) {
-        next.delete(company)
-      } else {
-        next.add(company)
-      }
-      return next
-    })
+  // 1円単位 → 兆円変換
+  const formatYAxis = (value: number) => {
+    const trillion = value / 1_000_000_000_000
+    return `${trillion.toFixed(1)}兆`
   }
 
-  const COLORS = [
-    '#003366',
-    '#FF6B6B',
-    '#4ECDC4',
-    '#45B7D1',
-    '#FFA07A',
-    '#98D8C8',
-    '#F7DC6F',
-    '#BB8FCE',
-    '#F8B88B',
-    '#85C1E2',
-  ]
-
-  if (filteredData.length === 0) {
-    return (
-      <div className="chart-container">
-        <h2 className="text-2xl font-bold text-jpx-primary mb-4">時価総額ランキング (Top 10)</h2>
-        <p className="text-gray-600">選択された期間にデータがありません</p>
-      </div>
-    )
+  const CustomTooltip = ({ active, payload, label }: any) => {
+    if (active && payload && payload.length) {
+      const item = payload[0].payload
+      return (
+        <div className="bg-white border border-gray-200 rounded-lg shadow-xl p-4 text-sm">
+          <p className="font-bold">#{item.rank} {item.name || item.company}</p>
+          <p className="text-blue-600 mt-1">
+            時価総額: <span className="font-mono">
+              {(Number(item.market_cap) / 1_000_000_000_000).toFixed(2)} 兆円
+            </span>
+          </p>
+        </div>
+      )
+    }
+    return null
   }
 
   return (
-    <div className="chart-container">
-      <h2 className="text-2xl font-bold text-jpx-primary mb-4">時価総額ランキング (Top 10)</h2>
-      <p className="text-sm text-gray-600 mb-4">
-        凡例をクリックして企業の表示/非表示を切り替えられます
-      </p>
-      <ResponsiveContainer width="100%" height={400}>
-        <LineChart data={filteredData}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis
-            dataKey="date"
-            angle={-45}
-            textAnchor="end"
-            height={80}
+    <div className="bg-white rounded-xl shadow p-6">
+      <div className="flex items-center justify-between mb-6">
+        <div>
+          <h2 className="text-2xl font-bold text-gray-800">時価総額ランキング</h2>
+          <p className="text-sm text-gray-500 mt-1">最新集計: {chartData[0]?.date}</p>
+        </div>
+
+        {/* Top N 選択 */}
+        <div className="flex items-center gap-3">
+          <span className="text-sm text-gray-600">表示件数:</span>
+          <select
+            value={topN}
+            onChange={(e) => setTopN(Number(e.target.value))}
+            className="border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value={10}>Top 10</option>
+            <option value={50}>Top 50</option>
+            <option value={100}>Top 100</option>
+          </select>
+        </div>
+      </div>
+
+      <ResponsiveContainer width="100%" height={520}>
+        <BarChart
+          data={chartData}
+          layout="vertical"
+          margin={{ top: 20, right: 60, bottom: 20, left: 180 }}
+        >
+          <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
+
+          <XAxis 
+            type="number"
+            tickFormatter={formatYAxis}
           />
-          <YAxis
-            label={{
-              value: '時価総額 (円)',
-              angle: -90,
-              position: 'insideLeft',
-            }}
+
+          <YAxis 
+            type="category"
+            dataKey="name"
+            width={160}
+            tick={{ fontSize: 13 }}
           />
-          <Tooltip
-            formatter={(value) => {
-              if (typeof value === 'number') {
-                return `¥${(value / 1000000).toFixed(2)}M`
-              }
-              return value
-            }}
+
+          <Tooltip content={<CustomTooltip />} />
+
+          <Legend 
+            verticalAlign="top" 
+            align="center"
+            wrapperStyle={{ paddingBottom: 15 }}
           />
-          <Legend onClick={handleLegendClick} />
-          {topCompanies.map((company, index) =>
-            visibleCompanies.has(company) ? (
-              <Line
-                key={company}
-                type="monotone"
-                dataKey={company}
-                stroke={COLORS[index % COLORS.length]}
-                dot={false}
-                strokeWidth={2}
-              />
-            ) : null
-          )}
-        </LineChart>
+
+          <Bar
+            dataKey="market_cap"
+            fill="#2563eb"
+            radius={[0, 6, 6, 0]}
+            name="時価総額"
+          />
+        </BarChart>
       </ResponsiveContainer>
     </div>
   )
