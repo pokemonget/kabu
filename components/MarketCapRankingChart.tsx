@@ -36,34 +36,40 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
     const dates = [...new Set(data.map(d => d.date))].sort()
     const filteredDates = dates.filter(date => date >= startDate && date <= endDate)
 
-    // 最新月のTop N企業を基準に取得
     const latestDate = [...new Set(data.map(d => d.date))].sort().reverse()[0]
     const topCompanies = data
       .filter(item => item.date === latestDate && item.rank <= topN)
       .sort((a, b) => a.rank - b.rank)
       .map(item => item.name || item.company || `Rank${item.rank}`)
 
-    // 各日付ごとに全Top企業を必ず含める（歯抜け防止）
-    return filteredDates.map(date => {
+    // 基本データ作成
+    let rawData = filteredDates.map(date => {
       const row: any = { date }
       const dayData = data.filter(d => d.date === date)
-
       topCompanies.forEach(company => {
-        const found = dayData.find(item => 
-          (item.name || item.company) === company
-        )
-        row[company] = found ? Number(found.market_cap) : 0   // 存在しない月は0
+        const found = dayData.find(item => (item.name || item.company) === company)
+        row[company] = found ? Number(found.market_cap) : null  // nullでマーク
       })
       return row
     })
+
+    // 前方補間（前の値で埋める）→ 線が途切れないように
+    const companies = topCompanies
+    for (let i = 1; i < rawData.length; i++) {
+      companies.forEach(company => {
+        if (rawData[i][company] === null && rawData[i-1][company] != null) {
+          rawData[i][company] = rawData[i-1][company]
+        }
+      })
+    }
+
+    return rawData
   }, [data, startDate, endDate, topN])
 
   // 百万円単位 → 兆円変換
   const toTrillion = (value: number) => value / 1_000_000
 
-  const formatYAxis = (value: number) => {
-    return `${toTrillion(value).toFixed(1)}兆`
-  }
+  const formatYAxis = (value: number) => `${toTrillion(value).toFixed(1)}兆`
 
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (active && payload && payload.length) {
@@ -140,10 +146,10 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
                 dataKey={company}
                 stroke={`hsl(${(index * 35) % 360}, 75%, 55%)`}
                 strokeWidth={2.8}
-                dot={{ r: 3.5 }}
-                activeDot={{ r: 7 }}
+                dot={{ r: 3 }}
+                activeDot={{ r: 6 }}
                 name={company}
-                connectNulls={false}   // 歯抜けを線で繋がない
+                connectNulls={true}   // 重要：線を繋げる
               />
             ))}
         </LineChart>
