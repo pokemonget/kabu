@@ -1,7 +1,16 @@
 [
   {
-    "date": "2025-09",
-    "source": "JPX",
-    "note": "PER/PBR data (can be enhanced later)"
+    "date": "0000-00",
+    "category": "全体",
+    "per": 2022.0,
+    "pbr": 2022.0,
+    "extra_info": "規模別・業種別平均"
+  },
+  {
+    "date": "2024-02",
+    "category": "全体",
+    "per": null,
+    "pbr": null,
+    "extra_info": "規模別・業種別平均"
   }
 ]
