@@ -36,34 +36,35 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
     const dates = [...new Set(data.map(d => d.date))].sort()
     const filteredDates = dates.filter(date => date >= startDate && date <= endDate)
 
+    // 最新月のTop N企業を基準に取得（名前を正規化）
     const latestDate = [...new Set(data.map(d => d.date))].sort().reverse()[0]
-    const topCompanies = data
+    const topItems = data
       .filter(item => item.date === latestDate && item.rank <= topN)
       .sort((a, b) => a.rank - b.rank)
-      .map(item => item.name || item.company || `Rank${item.rank}`)
 
-    // 基本データ作成
-    let rawData = filteredDates.map(date => {
+    const topCompanies = topItems.map(item => ({
+      key: (item.name || item.company || `Rank${item.rank}`).trim(),
+      originalName: item.name || item.company
+    }))
+
+    // 各日付ごとに全Top企業を確実に含める
+    return filteredDates.map(date => {
       const row: any = { date }
       const dayData = data.filter(d => d.date === date)
-      topCompanies.forEach(company => {
-        const found = dayData.find(item => (item.name || item.company) === company)
-        row[company] = found ? Number(found.market_cap) : null  // nullでマーク
+
+      topCompanies.forEach(({ key, originalName }) => {
+        // 名前でマッチング（より柔軟に）
+        const found = dayData.find(item => {
+          const itemName = (item.name || item.company || '').trim()
+          return itemName === originalName || 
+                 itemName.includes(originalName.slice(0, 6)) || 
+                 originalName.includes(itemName.slice(0, 6))
+        })
+
+        row[key] = found ? Number(found.market_cap) : 0
       })
       return row
     })
-
-    // 前方補間（前の値で埋める）→ 線が途切れないように
-    const companies = topCompanies
-    for (let i = 1; i < rawData.length; i++) {
-      companies.forEach(company => {
-        if (rawData[i][company] === null && rawData[i-1][company] != null) {
-          rawData[i][company] = rawData[i-1][company]
-        }
-      })
-    }
-
-    return rawData
   }, [data, startDate, endDate, topN])
 
   // 百万円単位 → 兆円変換
@@ -149,7 +150,7 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
                 dot={{ r: 3 }}
                 activeDot={{ r: 6 }}
                 name={company}
-                connectNulls={true}   // 重要：線を繋げる
+                connectNulls={true}
               />
             ))}
         </LineChart>
