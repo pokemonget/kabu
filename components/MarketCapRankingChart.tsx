@@ -36,12 +36,14 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
     const dates = [...new Set(data.map(d => d.date))].sort()
     const filteredDates = dates.filter(date => date >= startDate && date <= endDate)
 
+    // 最新月のTop N企業を基準に取得
     const latestDate = [...new Set(data.map(d => d.date))].sort().reverse()[0]
     const topCompanies = data
       .filter(item => item.date === latestDate && item.rank <= topN)
       .sort((a, b) => a.rank - b.rank)
       .map(item => item.name || item.company || `Rank${item.rank}`)
 
+    // 各日付ごとに全Top企業を必ず含める（歯抜け防止）
     return filteredDates.map(date => {
       const row: any = { date }
       const dayData = data.filter(d => d.date === date)
@@ -50,16 +52,14 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
         const found = dayData.find(item => 
           (item.name || item.company) === company
         )
-        row[company] = found ? Number(found.market_cap) : 0
+        row[company] = found ? Number(found.market_cap) : 0   // 存在しない月は0
       })
       return row
     })
   }, [data, startDate, endDate, topN])
 
-  // ★★★ 百万円単位 → 兆円変換 ★★★
-  const toTrillion = (value: number) => {
-    return value / 1_000_000   // 百万円単位を兆円に変換
-  }
+  // 百万円単位 → 兆円変換
+  const toTrillion = (value: number) => value / 1_000_000
 
   const formatYAxis = (value: number) => {
     return `${toTrillion(value).toFixed(1)}兆`
@@ -143,6 +143,7 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
                 dot={{ r: 3.5 }}
                 activeDot={{ r: 7 }}
                 name={company}
+                connectNulls={false}   // 歯抜けを線で繋がない
               />
             ))}
         </LineChart>
