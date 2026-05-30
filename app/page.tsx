@@ -25,7 +25,7 @@ interface PerPbrData {
   category: string
   per: number | null
   pbr: number | null
-  extra_info?: string
+  extra_info?: string   // オプションのまま
 }
 
 export default function Home() {
@@ -65,7 +65,7 @@ export default function Home() {
           market_cap: Number(item.market_cap)
         }))
 
-        // PER/PBRデータ変換（null対応）
+        // PER/PBRデータ変換
         const perPbr = perPbrRaw.map((item: any) => ({
           date: item.date,
           category: item.category || '全体',
@@ -171,8 +171,18 @@ export default function Home() {
 
         {perPbrStats.length > 0 && (
           <>
-            <PerPbrStatsChart data={perPbrStats} startDate={startDate} endDate={endDate} metric="per" />
-            <PerPbrStatsChart data={perPbrStats} startDate={startDate} endDate={endDate} metric="pbr" />
+            <PerPbrStatsChart 
+              data={perPbrStats} 
+              startDate={startDate} 
+              endDate={endDate} 
+              metric="per" 
+            />
+            <PerPbrStatsChart 
+              data={perPbrStats} 
+              startDate={startDate} 
+              endDate={endDate} 
+              metric="pbr" 
+            />
           </>
         )}
       </div>
