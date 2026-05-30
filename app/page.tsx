@@ -12,13 +12,11 @@ interface MarketCapData {
   market_cap: number
 }
 
-// MarketCapRankingChartが期待する型に合わせる
 interface RankingData {
   date: string
   rank: number
   code?: string
-  name?: string
-  company?: string
+  company: string     // ← 必須に統一
   market_cap: number
 }
 
@@ -57,13 +55,12 @@ export default function Home() {
         let rankingRaw = await rankingRes.json()
         const perPbr = await perPbrRes.json()
 
-        // データ変換（scraper → コンポーネントが期待する形式）
+        // データ変換
         const ranking = rankingRaw.map((item: any) => ({
           date: item.date,
           rank: Number(item.rank),
           code: item.code,
-          name: item.name,
-          company: item.name || item.company,   // 両方対応
+          company: item.name || item.company || '不明',   // companyフィールドを確実に作成
           market_cap: Number(item.market_cap)
         }))
 
