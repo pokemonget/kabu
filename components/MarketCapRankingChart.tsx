@@ -30,36 +30,35 @@ interface Props {
 export default function MarketCapRankingChart({ data, startDate, endDate }: Props) {
   const [topN, setTopN] = useState<number>(10)
 
-  // Top N企業の時系列データを作成
   const chartData = useMemo(() => {
     if (!data || data.length === 0) return []
 
     const dates = [...new Set(data.map(d => d.date))].sort()
     const filteredDates = dates.filter(date => date >= startDate && date <= endDate)
 
-    // 最新月のTop N企業を抽出
     const latestDate = [...new Set(data.map(d => d.date))].sort().reverse()[0]
     const topCompanies = data
       .filter(item => item.date === latestDate && item.rank <= topN)
       .sort((a, b) => a.rank - b.rank)
-      .map(item => item.name || item.company)
+      .map(item => item.name || item.company || `Rank${item.rank}`)
 
-    // 日付ごとにTop企業の時価総額をマッピング
     return filteredDates.map(date => {
       const row: any = { date }
       const dayData = data.filter(d => d.date === date)
 
       topCompanies.forEach(company => {
-        const found = dayData.find(item => (item.name || item.company) === company)
+        const found = dayData.find(item => 
+          (item.name || item.company) === company
+        )
         row[company] = found ? Number(found.market_cap) : 0
       })
       return row
     })
   }, [data, startDate, endDate, topN])
 
-  // 1円単位 → 兆円変換
+  // 100円単位 → 兆円変換
   const formatYAxis = (value: number) => {
-    const trillion = value / 1_000_000_000_000
+    const trillion = value / 10_000_000_000   // 100円単位を考慮
     return `${trillion.toFixed(1)}兆`
   }
 
@@ -75,7 +74,7 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
               <div key={i} className="flex justify-between gap-6 py-0.5">
                 <span className="font-medium">{entry.name}</span>
                 <span className="font-mono text-blue-600">
-                  {(Number(entry.value) / 1_000_000_000_000).toFixed(2)} 兆円
+                  {(Number(entry.value) / 10_000_000_000).toFixed(2)} 兆円
                 </span>
               </div>
             ))}
@@ -129,7 +128,6 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
             }}
           />
 
-          {/* Top N企業のラインを描画 */}
           {chartData.length > 0 && Object.keys(chartData[0])
             .filter(key => key !== 'date')
             .map((company, index) => (
@@ -138,9 +136,9 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
                 type="monotone"
                 dataKey={company}
                 stroke={`hsl(${(index * 35) % 360}, 75%, 55%)`}
-                strokeWidth={2.5}
-                dot={{ r: 3 }}
-                activeDot={{ r: 6 }}
+                strokeWidth={2.8}
+                dot={{ r: 3.5 }}
+                activeDot={{ r: 7 }}
                 name={company}
               />
             ))}
