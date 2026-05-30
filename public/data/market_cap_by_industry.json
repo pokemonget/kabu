@@ -1,722 +1,3962 @@
 [
   {
-    "date": "2025-01",
-    "industry": "銀行業",
-    "market_cap": 1000000
-  },
-  {
-    "date": "2025-01",
-    "industry": "電気・ガス業",
-    "market_cap": 1505000
-  },
-  {
-    "date": "2025-01",
-    "industry": "海運業",
-    "market_cap": 2010000
-  },
-  {
-    "date": "2025-01",
-    "industry": "証券業",
-    "market_cap": 2515000
-  },
-  {
-    "date": "2025-01",
-    "industry": "輸送用機器",
-    "market_cap": 3020000
-  },
-  {
-    "date": "2025-01",
-    "industry": "精密機器",
-    "market_cap": 3525000
-  },
-  {
-    "date": "2025-01",
-    "industry": "医薬品",
-    "market_cap": 4030000
-  },
-  {
-    "date": "2025-01",
-    "industry": "自動車",
-    "market_cap": 4535000
-  },
-  {
-    "date": "2025-01",
-    "industry": "食料品",
-    "market_cap": 5040000
-  },
-  {
-    "date": "2025-01",
-    "industry": "IT",
-    "market_cap": 5545000
-  },
-  {
-    "date": "2025-01",
-    "industry": "鉄道・バス業",
-    "market_cap": 6050000
-  },
-  {
-    "date": "2025-01",
-    "industry": "保険業",
-    "market_cap": 6555000
-  },
-  {
-    "date": "2025-01",
-    "industry": "銀行業",
-    "market_cap": 1010000
-  },
-  {
-    "date": "2025-01",
-    "industry": "電気・ガス業",
-    "market_cap": 1515000
-  },
-  {
-    "date": "2025-01",
-    "industry": "海運業",
-    "market_cap": 2020000
-  },
-  {
-    "date": "2025-01",
-    "industry": "証券業",
-    "market_cap": 2525000
-  },
-  {
-    "date": "2025-01",
-    "industry": "輸送用機器",
-    "market_cap": 3030000
-  },
-  {
-    "date": "2025-01",
-    "industry": "精密機器",
-    "market_cap": 3535000
-  },
-  {
-    "date": "2025-01",
-    "industry": "医薬品",
-    "market_cap": 4040000
-  },
-  {
-    "date": "2025-01",
-    "industry": "自動車",
-    "market_cap": 4545000
-  },
-  {
-    "date": "2025-01",
-    "industry": "食料品",
-    "market_cap": 5050000
-  },
-  {
-    "date": "2025-01",
-    "industry": "IT",
-    "market_cap": 5555000
-  },
-  {
-    "date": "2025-01",
-    "industry": "鉄道・バス業",
-    "market_cap": 6060000
-  },
-  {
-    "date": "2025-01",
-    "industry": "保険業",
-    "market_cap": 6565000
-  },
-  {
-    "date": "2025-03",
-    "industry": "銀行業",
-    "market_cap": 1020000
-  },
-  {
-    "date": "2025-03",
-    "industry": "電気・ガス業",
-    "market_cap": 1525000
-  },
-  {
-    "date": "2025-03",
-    "industry": "海運業",
-    "market_cap": 2030000
-  },
-  {
-    "date": "2025-03",
-    "industry": "証券業",
-    "market_cap": 2535000
-  },
-  {
-    "date": "2025-03",
-    "industry": "輸送用機器",
-    "market_cap": 3040000
-  },
-  {
-    "date": "2025-03",
-    "industry": "精密機器",
-    "market_cap": 3545000
-  },
-  {
-    "date": "2025-03",
-    "industry": "医薬品",
-    "market_cap": 4050000
-  },
-  {
-    "date": "2025-03",
-    "industry": "自動車",
-    "market_cap": 4555000
-  },
-  {
-    "date": "2025-03",
-    "industry": "食料品",
-    "market_cap": 5060000
-  },
-  {
-    "date": "2025-03",
-    "industry": "IT",
-    "market_cap": 5565000
-  },
-  {
-    "date": "2025-03",
-    "industry": "鉄道・バス業",
-    "market_cap": 6070000
-  },
-  {
-    "date": "2025-03",
-    "industry": "保険業",
-    "market_cap": 6575000
-  },
-  {
-    "date": "2025-04",
-    "industry": "銀行業",
-    "market_cap": 1030000
-  },
-  {
-    "date": "2025-04",
-    "industry": "電気・ガス業",
-    "market_cap": 1535000
-  },
-  {
-    "date": "2025-04",
-    "industry": "海運業",
-    "market_cap": 2040000
-  },
-  {
-    "date": "2025-04",
-    "industry": "証券業",
-    "market_cap": 2545000
-  },
-  {
-    "date": "2025-04",
-    "industry": "輸送用機器",
-    "market_cap": 3050000
-  },
-  {
-    "date": "2025-04",
-    "industry": "精密機器",
-    "market_cap": 3555000
-  },
-  {
-    "date": "2025-04",
-    "industry": "医薬品",
-    "market_cap": 4060000
-  },
-  {
-    "date": "2025-04",
-    "industry": "自動車",
-    "market_cap": 4565000
-  },
-  {
-    "date": "2025-04",
-    "industry": "食料品",
-    "market_cap": 5070000
-  },
-  {
-    "date": "2025-04",
-    "industry": "IT",
-    "market_cap": 5575000
-  },
-  {
-    "date": "2025-04",
-    "industry": "鉄道・バス業",
-    "market_cap": 6080000
-  },
-  {
-    "date": "2025-04",
-    "industry": "保険業",
-    "market_cap": 6585000
-  },
-  {
-    "date": "2025-05",
-    "industry": "銀行業",
-    "market_cap": 1040000
-  },
-  {
-    "date": "2025-05",
-    "industry": "電気・ガス業",
-    "market_cap": 1545000
-  },
-  {
-    "date": "2025-05",
-    "industry": "海運業",
-    "market_cap": 2050000
-  },
-  {
-    "date": "2025-05",
-    "industry": "証券業",
-    "market_cap": 2555000
-  },
-  {
-    "date": "2025-05",
-    "industry": "輸送用機器",
-    "market_cap": 3060000
-  },
-  {
-    "date": "2025-05",
-    "industry": "精密機器",
-    "market_cap": 3565000
-  },
-  {
-    "date": "2025-05",
-    "industry": "医薬品",
-    "market_cap": 4070000
-  },
-  {
-    "date": "2025-05",
-    "industry": "自動車",
-    "market_cap": 4575000
-  },
-  {
-    "date": "2025-05",
-    "industry": "食料品",
-    "market_cap": 5080000
-  },
-  {
-    "date": "2025-05",
-    "industry": "IT",
-    "market_cap": 5585000
-  },
-  {
-    "date": "2025-05",
-    "industry": "鉄道・バス業",
-    "market_cap": 6090000
-  },
-  {
-    "date": "2025-05",
-    "industry": "保険業",
-    "market_cap": 6595000
-  },
-  {
-    "date": "2025-05",
-    "industry": "銀行業",
-    "market_cap": 1050000
-  },
-  {
-    "date": "2025-05",
-    "industry": "電気・ガス業",
-    "market_cap": 1555000
-  },
-  {
-    "date": "2025-05",
-    "industry": "海運業",
-    "market_cap": 2060000
-  },
-  {
-    "date": "2025-05",
-    "industry": "証券業",
-    "market_cap": 2565000
-  },
-  {
-    "date": "2025-05",
-    "industry": "輸送用機器",
-    "market_cap": 3070000
-  },
-  {
-    "date": "2025-05",
-    "industry": "精密機器",
-    "market_cap": 3575000
-  },
-  {
-    "date": "2025-05",
-    "industry": "医薬品",
-    "market_cap": 4080000
-  },
-  {
-    "date": "2025-05",
-    "industry": "自動車",
-    "market_cap": 4585000
-  },
-  {
-    "date": "2025-05",
-    "industry": "食料品",
-    "market_cap": 5090000
-  },
-  {
-    "date": "2025-05",
-    "industry": "IT",
-    "market_cap": 5595000
-  },
-  {
-    "date": "2025-05",
-    "industry": "鉄道・バス業",
-    "market_cap": 6100000
-  },
-  {
-    "date": "2025-05",
-    "industry": "保険業",
-    "market_cap": 6605000
-  },
-  {
-    "date": "2025-06",
-    "industry": "銀行業",
-    "market_cap": 1060000
-  },
-  {
-    "date": "2025-06",
-    "industry": "電気・ガス業",
-    "market_cap": 1565000
-  },
-  {
-    "date": "2025-06",
-    "industry": "海運業",
-    "market_cap": 2070000
-  },
-  {
-    "date": "2025-06",
-    "industry": "証券業",
-    "market_cap": 2575000
-  },
-  {
-    "date": "2025-06",
-    "industry": "輸送用機器",
-    "market_cap": 3080000
-  },
-  {
-    "date": "2025-06",
-    "industry": "精密機器",
-    "market_cap": 3585000
-  },
-  {
-    "date": "2025-06",
-    "industry": "医薬品",
-    "market_cap": 4090000
-  },
-  {
-    "date": "2025-06",
-    "industry": "自動車",
-    "market_cap": 4595000
-  },
-  {
-    "date": "2025-06",
-    "industry": "食料品",
-    "market_cap": 5100000
-  },
-  {
-    "date": "2025-06",
-    "industry": "IT",
-    "market_cap": 5605000
-  },
-  {
-    "date": "2025-06",
-    "industry": "鉄道・バス業",
-    "market_cap": 6110000
-  },
-  {
-    "date": "2025-06",
-    "industry": "保険業",
-    "market_cap": 6615000
-  },
-  {
-    "date": "2025-07",
-    "industry": "銀行業",
-    "market_cap": 1070000
-  },
-  {
-    "date": "2025-07",
-    "industry": "電気・ガス業",
-    "market_cap": 1575000
-  },
-  {
-    "date": "2025-07",
-    "industry": "海運業",
-    "market_cap": 2080000
-  },
-  {
-    "date": "2025-07",
-    "industry": "証券業",
-    "market_cap": 2585000
-  },
-  {
-    "date": "2025-07",
-    "industry": "輸送用機器",
-    "market_cap": 3090000
-  },
-  {
-    "date": "2025-07",
-    "industry": "精密機器",
-    "market_cap": 3595000
-  },
-  {
-    "date": "2025-07",
-    "industry": "医薬品",
-    "market_cap": 4100000
-  },
-  {
-    "date": "2025-07",
-    "industry": "自動車",
-    "market_cap": 4605000
-  },
-  {
-    "date": "2025-07",
-    "industry": "食料品",
-    "market_cap": 5110000
-  },
-  {
-    "date": "2025-07",
-    "industry": "IT",
-    "market_cap": 5615000
-  },
-  {
-    "date": "2025-07",
-    "industry": "鉄道・バス業",
-    "market_cap": 6120000
-  },
-  {
-    "date": "2025-07",
-    "industry": "保険業",
-    "market_cap": 6625000
-  },
-  {
-    "date": "2025-08",
-    "industry": "銀行業",
-    "market_cap": 1080000
-  },
-  {
-    "date": "2025-08",
-    "industry": "電気・ガス業",
-    "market_cap": 1585000
-  },
-  {
-    "date": "2025-08",
-    "industry": "海運業",
-    "market_cap": 2090000
-  },
-  {
-    "date": "2025-08",
-    "industry": "証券業",
-    "market_cap": 2595000
-  },
-  {
-    "date": "2025-08",
-    "industry": "輸送用機器",
-    "market_cap": 3100000
-  },
-  {
-    "date": "2025-08",
-    "industry": "精密機器",
-    "market_cap": 3605000
-  },
-  {
-    "date": "2025-08",
-    "industry": "医薬品",
-    "market_cap": 4110000
-  },
-  {
-    "date": "2025-08",
-    "industry": "自動車",
-    "market_cap": 4615000
-  },
-  {
-    "date": "2025-08",
-    "industry": "食料品",
-    "market_cap": 5120000
-  },
-  {
-    "date": "2025-08",
-    "industry": "IT",
-    "market_cap": 5625000
-  },
-  {
-    "date": "2025-08",
-    "industry": "鉄道・バス業",
-    "market_cap": 6130000
-  },
-  {
-    "date": "2025-08",
-    "industry": "保険業",
-    "market_cap": 6635000
+    "date": "2025-09",
+    "industry": "水産・農林",
+    "market_cap": 830561000000
   },
   {
     "date": "2025-09",
-    "industry": "銀行業",
-    "market_cap": 1090000
+    "industry": "鉱",
+    "market_cap": 3957007000000
   },
   {
     "date": "2025-09",
-    "industry": "電気・ガス業",
-    "market_cap": 1595000
-  },
-  {
-    "date": "2025-09",
-    "industry": "海運業",
-    "market_cap": 2100000
-  },
-  {
-    "date": "2025-09",
-    "industry": "証券業",
-    "market_cap": 2605000
-  },
-  {
-    "date": "2025-09",
-    "industry": "輸送用機器",
-    "market_cap": 3110000
-  },
-  {
-    "date": "2025-09",
-    "industry": "精密機器",
-    "market_cap": 3615000
-  },
-  {
-    "date": "2025-09",
-    "industry": "医薬品",
-    "market_cap": 4120000
-  },
-  {
-    "date": "2025-09",
-    "industry": "自動車",
-    "market_cap": 4625000
+    "industry": "建設",
+    "market_cap": 26913902000000
   },
   {
     "date": "2025-09",
     "industry": "食料品",
-    "market_cap": 5130000
+    "market_cap": 31822331000000
   },
   {
     "date": "2025-09",
-    "industry": "IT",
-    "market_cap": 5635000
+    "industry": "繊維製品",
+    "market_cap": 3831379000000
   },
   {
     "date": "2025-09",
-    "industry": "鉄道・バス業",
-    "market_cap": 6140000
+    "industry": "パルプ・紙",
+    "market_cap": 1804555000000
   },
   {
     "date": "2025-09",
-    "industry": "保険業",
-    "market_cap": 6645000
+    "industry": "化学",
+    "market_cap": 50935586000000
   },
   {
-    "date": "2025-10",
-    "industry": "銀行業",
-    "market_cap": 1100000
-  },
-  {
-    "date": "2025-10",
-    "industry": "電気・ガス業",
-    "market_cap": 1605000
-  },
-  {
-    "date": "2025-10",
-    "industry": "海運業",
-    "market_cap": 2110000
-  },
-  {
-    "date": "2025-10",
-    "industry": "証券業",
-    "market_cap": 2615000
-  },
-  {
-    "date": "2025-10",
-    "industry": "輸送用機器",
-    "market_cap": 3120000
-  },
-  {
-    "date": "2025-10",
-    "industry": "精密機器",
-    "market_cap": 3625000
-  },
-  {
-    "date": "2025-10",
+    "date": "2025-09",
     "industry": "医薬品",
-    "market_cap": 4130000
+    "market_cap": 41349908000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "石油・石炭製品",
+    "market_cap": 4597221000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "ゴム製品",
+    "market_cap": 7599610000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "ガラス・土石製品",
+    "market_cap": 7028439000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "鉄鋼",
+    "market_cap": 7554164000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "非鉄金属",
+    "market_cap": 14247988000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "金属製品",
+    "market_cap": 4960576000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "機械",
+    "market_cap": 58992722000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "電気機器",
+    "market_cap": 168621114000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "輸送用機器",
+    "market_cap": 85436366000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "精密機器",
+    "market_cap": 18169049000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "その他製品",
+    "market_cap": 29363083000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "電気・ガス",
+    "market_cap": 12549956000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "陸運",
+    "market_cap": 25720077000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "海運",
+    "market_cap": 5419907000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "空運",
+    "market_cap": 2689562000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1947621000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "情報・通信",
+    "market_cap": 104441658000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "卸売",
+    "market_cap": 71175414000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "小売",
+    "market_cap": 58170731000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "銀行",
+    "market_cap": 89880584000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "証券、商品先物取引",
+    "market_cap": 9063928000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "保険",
+    "market_cap": 31101045000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "その他金融",
+    "market_cap": 12611359000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "不動産",
+    "market_cap": 22078768000000
+  },
+  {
+    "date": "2025-09",
+    "industry": "サービス",
+    "market_cap": 45209543000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "水産・農林",
+    "market_cap": 804264000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "鉱",
+    "market_cap": 3716841000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "建設",
+    "market_cap": 26739838000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "食料品",
+    "market_cap": 31234478000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "繊維製品",
+    "market_cap": 3861960000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "パルプ・紙",
+    "market_cap": 1797945000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "化学",
+    "market_cap": 50182091000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "医薬品",
+    "market_cap": 41826594000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "石油・石炭製品",
+    "market_cap": 4426223000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "ゴム製品",
+    "market_cap": 7457803000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "ガラス・土石製品",
+    "market_cap": 6800767000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "鉄鋼",
+    "market_cap": 7759221000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "非鉄金属",
+    "market_cap": 12887679000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "金属製品",
+    "market_cap": 4978718000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "機械",
+    "market_cap": 57444479000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "電気機器",
+    "market_cap": 159286161000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "輸送用機器",
+    "market_cap": 85415844000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "精密機器",
+    "market_cap": 17797026000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "その他製品",
+    "market_cap": 30115500000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "電気・ガス",
+    "market_cap": 12774740000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "陸運",
+    "market_cap": 25432922000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "海運",
+    "market_cap": 5738326000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "空運",
+    "market_cap": 2809913000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1942384000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "情報・通信",
+    "market_cap": 107969381000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "卸売",
+    "market_cap": 69026796000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "小売",
+    "market_cap": 59013545000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "銀行",
+    "market_cap": 87081867000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "証券、商品先物取引",
+    "market_cap": 9099263000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "保険",
+    "market_cap": 30877797000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "その他金融",
+    "market_cap": 12297969000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "不動産",
+    "market_cap": 21306520000000
+  },
+  {
+    "date": "2025-08",
+    "industry": "サービス",
+    "market_cap": 45972358000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "水産・農林",
+    "market_cap": 756355000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "鉱",
+    "market_cap": 3192598000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "建設",
+    "market_cap": 24590731000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "食料品",
+    "market_cap": 30373070000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "繊維製品",
+    "market_cap": 3879274000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "パルプ・紙",
+    "market_cap": 1687949000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "化学",
+    "market_cap": 48763086000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "医薬品",
+    "market_cap": 43036336000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "石油・石炭製品",
+    "market_cap": 4138773000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "ゴム製品",
+    "market_cap": 6720573000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "ガラス・土石製品",
+    "market_cap": 6669254000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "鉄鋼",
+    "market_cap": 7198948000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "非鉄金属",
+    "market_cap": 10764278000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "金属製品",
+    "market_cap": 4628883000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "機械",
+    "market_cap": 56826548000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "電気機器",
+    "market_cap": 158951832000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "輸送用機器",
+    "market_cap": 80942160000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "精密機器",
+    "market_cap": 17388448000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "その他製品",
+    "market_cap": 28837199000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "電気・ガス",
+    "market_cap": 11336162000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "陸運",
+    "market_cap": 23719495000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "海運",
+    "market_cap": 5729608000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "空運",
+    "market_cap": 2675261000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1923363000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "情報・通信",
+    "market_cap": 100504834000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "卸売",
+    "market_cap": 63540077000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "小売",
+    "market_cap": 58167019000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "銀行",
+    "market_cap": 80934276000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "証券、商品先物取引",
+    "market_cap": 8254917000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "保険",
+    "market_cap": 29453799000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "その他金融",
+    "market_cap": 11427188000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "不動産",
+    "market_cap": 19362850000000
+  },
+  {
+    "date": "2025-07",
+    "industry": "サービス",
+    "market_cap": 44955809000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "水産・農林",
+    "market_cap": 749810000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "鉱",
+    "market_cap": 3015107000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "建設",
+    "market_cap": 23425119000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "食料品",
+    "market_cap": 30210101000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "繊維製品",
+    "market_cap": 3693505000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "パルプ・紙",
+    "market_cap": 1622304000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "化学",
+    "market_cap": 47704897000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "医薬品",
+    "market_cap": 42241605000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "石油・石炭製品",
+    "market_cap": 3733421000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "ゴム製品",
+    "market_cap": 6391934000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "ガラス・土石製品",
+    "market_cap": 6184477000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "鉄鋼",
+    "market_cap": 6805722000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "非鉄金属",
+    "market_cap": 9003108000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "金属製品",
+    "market_cap": 4568886000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "機械",
+    "market_cap": 54492493000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "電気機器",
+    "market_cap": 156079785000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "輸送用機器",
+    "market_cap": 76337236000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "精密機器",
+    "market_cap": 16697324000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "その他製品",
+    "market_cap": 30377997000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "電気・ガス",
+    "market_cap": 10645328000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "陸運",
+    "market_cap": 23136971000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "海運",
+    "market_cap": 5511427000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "空運",
+    "market_cap": 2652776000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1859307000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "情報・通信",
+    "market_cap": 99998825000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "卸売",
+    "market_cap": 60996817000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "小売",
+    "market_cap": 59061074000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "銀行",
+    "market_cap": 75090913000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "証券、商品先物取引",
+    "market_cap": 7633308000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "保険",
+    "market_cap": 28213997000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "その他金融",
+    "market_cap": 10959237000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "不動産",
+    "market_cap": 18982359000000
+  },
+  {
+    "date": "2025-06",
+    "industry": "サービス",
+    "market_cap": 44395653000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "水産・農林",
+    "market_cap": 740389000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "鉱",
+    "market_cap": 2915409000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "建設",
+    "market_cap": 22819408000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "食料品",
+    "market_cap": 30410977000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "繊維製品",
+    "market_cap": 3708699000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "パルプ・紙",
+    "market_cap": 1566275000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "化学",
+    "market_cap": 47082538000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "医薬品",
+    "market_cap": 43055729000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "石油・石炭製品",
+    "market_cap": 3659082000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "ゴム製品",
+    "market_cap": 6617278000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "ガラス・土石製品",
+    "market_cap": 6020510000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "鉄鋼",
+    "market_cap": 7003294000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "非鉄金属",
+    "market_cap": 8544683000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "金属製品",
+    "market_cap": 4534804000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "機械",
+    "market_cap": 51274682000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "電気機器",
+    "market_cap": 149499926000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "輸送用機器",
+    "market_cap": 82358166000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "精密機器",
+    "market_cap": 16684866000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "その他製品",
+    "market_cap": 27169748000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "電気・ガス",
+    "market_cap": 10475918000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "陸運",
+    "market_cap": 22400605000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "海運",
+    "market_cap": 5880358000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "空運",
+    "market_cap": 2661397000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1828367000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "情報・通信",
+    "market_cap": 93792991000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "卸売",
+    "market_cap": 61233788000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "小売",
+    "market_cap": 57160154000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "銀行",
+    "market_cap": 75959819000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "証券、商品先物取引",
+    "market_cap": 7165773000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "保険",
+    "market_cap": 29033146000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "その他金融",
+    "market_cap": 10806350000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "不動産",
+    "market_cap": 19512779000000
+  },
+  {
+    "date": "2025-05",
+    "industry": "サービス",
+    "market_cap": 44583727000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "水産・農林",
+    "market_cap": 747736000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "鉱",
+    "market_cap": 2723120000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "建設",
+    "market_cap": 22413547000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "食料品",
+    "market_cap": 30265960000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "繊維製品",
+    "market_cap": 3511125000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "パルプ・紙",
+    "market_cap": 1603579000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "化学",
+    "market_cap": 44753125000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "医薬品",
+    "market_cap": 43661604000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "石油・石炭製品",
+    "market_cap": 3924655000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "ゴム製品",
+    "market_cap": 6293997000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "ガラス・土石製品",
+    "market_cap": 5810326000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "鉄鋼",
+    "market_cap": 7126004000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "非鉄金属",
+    "market_cap": 7202321000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "金属製品",
+    "market_cap": 4320747000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "機械",
+    "market_cap": 46433992000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "電気機器",
+    "market_cap": 141244742000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "輸送用機器",
+    "market_cap": 79861244000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "精密機器",
+    "market_cap": 16683929000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "その他製品",
+    "market_cap": 27012423000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "電気・ガス",
+    "market_cap": 10750972000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "陸運",
+    "market_cap": 22308210000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "海運",
+    "market_cap": 5312935000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "空運",
+    "market_cap": 2453513000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1559405000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "情報・通信",
+    "market_cap": 89754502000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "卸売",
+    "market_cap": 57589770000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "小売",
+    "market_cap": 55704115000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "銀行",
+    "market_cap": 69271032000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "証券、商品先物取引",
+    "market_cap": 6544825000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "保険",
+    "market_cap": 27502585000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "その他金融",
+    "market_cap": 10275979000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "不動産",
+    "market_cap": 19199962000000
+  },
+  {
+    "date": "2025-04",
+    "industry": "サービス",
+    "market_cap": 42697928000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "水産・農林",
+    "market_cap": 760916000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "鉱",
+    "market_cap": 3084233000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "建設",
+    "market_cap": 21153011000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "食料品",
+    "market_cap": 29208766000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "繊維製品",
+    "market_cap": 3755094000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "パルプ・紙",
+    "market_cap": 1544499000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "化学",
+    "market_cap": 45544380000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "医薬品",
+    "market_cap": 41431570000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "石油・石炭製品",
+    "market_cap": 4523880000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "ゴム製品",
+    "market_cap": 6410564000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "ガラス・土石製品",
+    "market_cap": 5930530000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "鉄鋼",
+    "market_cap": 7571015000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "非鉄金属",
+    "market_cap": 7628984000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "金属製品",
+    "market_cap": 4451796000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "機械",
+    "market_cap": 46783387000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "電気機器",
+    "market_cap": 143067701000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "輸送用機器",
+    "market_cap": 76890809000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "精密機器",
+    "market_cap": 17091674000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "その他製品",
+    "market_cap": 25154642000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "電気・ガス",
+    "market_cap": 10597180000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "陸運",
+    "market_cap": 21809001000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "海運",
+    "market_cap": 5721411000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "空運",
+    "market_cap": 2453965000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1554919000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "情報・通信",
+    "market_cap": 85718110000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "卸売",
+    "market_cap": 56059148000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "小売",
+    "market_cap": 52630722000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "銀行",
+    "market_cap": 75894939000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "証券、商品先物取引",
+    "market_cap": 7139778000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "保険",
+    "market_cap": 28327264000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "その他金融",
+    "market_cap": 10500587000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "不動産",
+    "market_cap": 18758509000000
+  },
+  {
+    "date": "2025-03",
+    "industry": "サービス",
+    "market_cap": 42081411000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "水産・農林",
+    "market_cap": 744119000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "鉱",
+    "market_cap": 2879991000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "建設",
+    "market_cap": 21134262000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "食料品",
+    "market_cap": 28469833000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "繊維製品",
+    "market_cap": 3666801000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "パルプ・紙",
+    "market_cap": 1550587000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "化学",
+    "market_cap": 46374717000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "医薬品",
+    "market_cap": 42082935000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "石油・石炭製品",
+    "market_cap": 4539776000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "ゴム製品",
+    "market_cap": 6198527000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "ガラス・土石製品",
+    "market_cap": 5947035000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "鉄鋼",
+    "market_cap": 7805278000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "非鉄金属",
+    "market_cap": 7224472000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "金属製品",
+    "market_cap": 4521151000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "機械",
+    "market_cap": 46061300000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "電気機器",
+    "market_cap": 148975833000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "輸送用機器",
+    "market_cap": 78894598000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "精密機器",
+    "market_cap": 17403031000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "その他製品",
+    "market_cap": 26851760000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "電気・ガス",
+    "market_cap": 10486014000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "陸運",
+    "market_cap": 21906627000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "海運",
+    "market_cap": 6119513000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "空運",
+    "market_cap": 2508722000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1546917000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "情報・通信",
+    "market_cap": 88717105000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "卸売",
+    "market_cap": 54682928000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "小売",
+    "market_cap": 52433163000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "銀行",
+    "market_cap": 73903644000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "証券、商品先物取引",
+    "market_cap": 7594903000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "保険",
+    "market_cap": 27034463000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "その他金融",
+    "market_cap": 10502162000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "不動産",
+    "market_cap": 18039249000000
+  },
+  {
+    "date": "2025-02",
+    "industry": "サービス",
+    "market_cap": 44682251000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "水産・農林",
+    "market_cap": 928003000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "鉱",
+    "market_cap": 6138355000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "建設",
+    "market_cap": 32861151000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "食料品",
+    "market_cap": 34317679000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "繊維製品",
+    "market_cap": 3931111000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "パルプ・紙",
+    "market_cap": 1900809000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "化学",
+    "market_cap": 59134755000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "医薬品",
+    "market_cap": 48456441000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "石油・石炭製品",
+    "market_cap": 6068463000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "ゴム製品",
+    "market_cap": 7044289000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "ガラス・土石製品",
+    "market_cap": 10420439000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "鉄鋼",
+    "market_cap": 7646491000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "非鉄金属",
+    "market_cap": 34796712000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "金属製品",
+    "market_cap": 5270667000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "機械",
+    "market_cap": 76117326000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "電気機器",
+    "market_cap": 236631415000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "輸送用機器",
+    "market_cap": 86533883000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "精密機器",
+    "market_cap": 21177095000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "その他製品",
+    "market_cap": 22815019000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "電気・ガス",
+    "market_cap": 14821611000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "陸運",
+    "market_cap": 23848871000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "海運",
+    "market_cap": 6471312000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "空運",
+    "market_cap": 2332639000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1968669000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "情報・通信",
+    "market_cap": 99458000000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "卸売",
+    "market_cap": 94040722000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "小売",
+    "market_cap": 64013928000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "銀行",
+    "market_cap": 117240174000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "証券、商品先物取引",
+    "market_cap": 9965881000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "保険",
+    "market_cap": 35405158000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "その他金融",
+    "market_cap": 14762223000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "不動産",
+    "market_cap": 25339879000000
+  },
+  {
+    "date": "2026-04",
+    "industry": "サービス",
+    "market_cap": 38069826000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "水産・農林",
+    "market_cap": 1002649000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "鉱",
+    "market_cap": 6914053000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "建設",
+    "market_cap": 31942071000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "食料品",
+    "market_cap": 34623426000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "繊維製品",
+    "market_cap": 3909365000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "パルプ・紙",
+    "market_cap": 1960379000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "化学",
+    "market_cap": 55613201000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "医薬品",
+    "market_cap": 51292565000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "石油・石炭製品",
+    "market_cap": 6637432000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "ゴム製品",
+    "market_cap": 6933927000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "ガラス・土石製品",
+    "market_cap": 8813149000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "鉄鋼",
+    "market_cap": 7755500000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "非鉄金属",
+    "market_cap": 26303098000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "金属製品",
+    "market_cap": 4840724000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "機械",
+    "market_cap": 67379022000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "電気機器",
+    "market_cap": 191913951000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "輸送用機器",
+    "market_cap": 87900065000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "精密機器",
+    "market_cap": 19985106000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "その他製品",
+    "market_cap": 24147719000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "電気・ガス",
+    "market_cap": 15832918000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "陸運",
+    "market_cap": 25049789000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "海運",
+    "market_cap": 6913929000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "空運",
+    "market_cap": 2476827000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 2033841000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "情報・通信",
+    "market_cap": 90669720000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "卸売",
+    "market_cap": 95065524000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "小売",
+    "market_cap": 63115172000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "銀行",
+    "market_cap": 107751666000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "証券、商品先物取引",
+    "market_cap": 9646552000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "保険",
+    "market_cap": 36065197000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "その他金融",
+    "market_cap": 13667673000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "不動産",
+    "market_cap": 24840707000000
+  },
+  {
+    "date": "2026-03",
+    "industry": "サービス",
+    "market_cap": 38300630000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "水産・農林",
+    "market_cap": 1101599000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "鉱",
+    "market_cap": 5883210000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "建設",
+    "market_cap": 38307629000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "食料品",
+    "market_cap": 36580744000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "繊維製品",
+    "market_cap": 4578840000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "パルプ・紙",
+    "market_cap": 2251172000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "化学",
+    "market_cap": 62191957000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "医薬品",
+    "market_cap": 56086441000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "石油・石炭製品",
+    "market_cap": 6863537000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "ゴム製品",
+    "market_cap": 8427235000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "ガラス・土石製品",
+    "market_cap": 10695809000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "鉄鋼",
+    "market_cap": 8861251000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "非鉄金属",
+    "market_cap": 31699068000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "金属製品",
+    "market_cap": 5580079000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "機械",
+    "market_cap": 82380106000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "電気機器",
+    "market_cap": 227826393000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "輸送用機器",
+    "market_cap": 106913490000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "精密機器",
+    "market_cap": 21394657000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "その他製品",
+    "market_cap": 26293232000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "電気・ガス",
+    "market_cap": 16598300000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "陸運",
+    "market_cap": 26954738000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "海運",
+    "market_cap": 6405630000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "空運",
+    "market_cap": 3059150000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 2100264000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "情報・通信",
+    "market_cap": 97261698000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "卸売",
+    "market_cap": 101859635000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "小売",
+    "market_cap": 69000207000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "銀行",
+    "market_cap": 124928386000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "証券、商品先物取引",
+    "market_cap": 11276010000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "保険",
+    "market_cap": 36620375000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "その他金融",
+    "market_cap": 16079893000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "不動産",
+    "market_cap": 29487944000000
+  },
+  {
+    "date": "2026-02",
+    "industry": "サービス",
+    "market_cap": 40955519000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "水産・農林",
+    "market_cap": 969942000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "鉱",
+    "market_cap": 5232367000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "建設",
+    "market_cap": 32593035000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "食料品",
+    "market_cap": 33074848000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "繊維製品",
+    "market_cap": 4033880000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "パルプ・紙",
+    "market_cap": 2024046000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "化学",
+    "market_cap": 53945834000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "医薬品",
+    "market_cap": 49037680000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "石油・石炭製品",
+    "market_cap": 6069608000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "ゴム製品",
+    "market_cap": 7795786000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "ガラス・土石製品",
+    "market_cap": 8843125000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "鉄鋼",
+    "market_cap": 8487378000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "非鉄金属",
+    "market_cap": 21413568000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "金属製品",
+    "market_cap": 5095716000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "機械",
+    "market_cap": 70567767000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "電気機器",
+    "market_cap": 211208022000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "輸送用機器",
+    "market_cap": 98774734000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "精密機器",
+    "market_cap": 19732316000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "その他製品",
+    "market_cap": 26007924000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "電気・ガス",
+    "market_cap": 14514294000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "陸運",
+    "market_cap": 25534230000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "海運",
+    "market_cap": 5718335000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "空運",
+    "market_cap": 2733728000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1949627000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "情報・通信",
+    "market_cap": 100003379000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "卸売",
+    "market_cap": 86822735000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "小売",
+    "market_cap": 62844864000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "銀行",
+    "market_cap": 114813205000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "証券、商品先物取引",
+    "market_cap": 10880968000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "保険",
+    "market_cap": 32171828000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "その他金融",
+    "market_cap": 14047335000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "不動産",
+    "market_cap": 24575975000000
+  },
+  {
+    "date": "2026-01",
+    "industry": "サービス",
+    "market_cap": 42341704000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "水産・農林",
+    "market_cap": 914843000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "鉱",
+    "market_cap": 4628012000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "建設",
+    "market_cap": 31289341000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "食料品",
+    "market_cap": 32554298000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "繊維製品",
+    "market_cap": 3767704000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "パルプ・紙",
+    "market_cap": 1926233000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "化学",
+    "market_cap": 51919813000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "医薬品",
+    "market_cap": 47765031000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "石油・石炭製品",
+    "market_cap": 5357337000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "ゴム製品",
+    "market_cap": 8100587000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "ガラス・土石製品",
+    "market_cap": 8071314000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "鉄鋼",
+    "market_cap": 8164917000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "非鉄金属",
+    "market_cap": 18205588000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "金属製品",
+    "market_cap": 5076461000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "機械",
+    "market_cap": 62010557000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "電気機器",
+    "market_cap": 195447289000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "輸送用機器",
+    "market_cap": 95727805000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "精密機器",
+    "market_cap": 19306856000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "その他製品",
+    "market_cap": 26694913000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "電気・ガス",
+    "market_cap": 14288331000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "陸運",
+    "market_cap": 25772492000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "海運",
+    "market_cap": 5608177000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "空運",
+    "market_cap": 2712612000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1848439000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "情報・通信",
+    "market_cap": 104073141000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "卸売",
+    "market_cap": 80573563000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "小売",
+    "market_cap": 64004401000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "銀行",
+    "market_cap": 101268248000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "証券、商品先物取引",
+    "market_cap": 10143641000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "保険",
+    "market_cap": 31753648000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "その他金融",
+    "market_cap": 13771592000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "不動産",
+    "market_cap": 23928910000000
+  },
+  {
+    "date": "2025-12",
+    "industry": "サービス",
+    "market_cap": 44230545000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "水産・農林",
+    "market_cap": 937234000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "鉱",
+    "market_cap": 4817087000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "建設",
+    "market_cap": 31447190000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "食料品",
+    "market_cap": 33656137000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "繊維製品",
+    "market_cap": 3957610000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "パルプ・紙",
+    "market_cap": 1858219000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "化学",
+    "market_cap": 51701994000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "医薬品",
+    "market_cap": 48166119000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "石油・石炭製品",
+    "market_cap": 5094879000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "ゴム製品",
+    "market_cap": 8271042000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "ガラス・土石製品",
+    "market_cap": 8078390000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "鉄鋼",
+    "market_cap": 8005384000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "非鉄金属",
+    "market_cap": 17422555000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "金属製品",
+    "market_cap": 4955834000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "機械",
+    "market_cap": 62759166000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "電気機器",
+    "market_cap": 193972847000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "輸送用機器",
+    "market_cap": 91883997000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "精密機器",
+    "market_cap": 20045702000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "その他製品",
+    "market_cap": 30537112000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "電気・ガス",
+    "market_cap": 14936041000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "陸運",
+    "market_cap": 25867175000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "海運",
+    "market_cap": 5383678000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "空運",
+    "market_cap": 2700369000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1842723000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "情報・通信",
+    "market_cap": 104461887000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "卸売",
+    "market_cap": 77466032000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "小売",
+    "market_cap": 65375074000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "銀行",
+    "market_cap": 95559141000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "証券、商品先物取引",
+    "market_cap": 9573907000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "保険",
+    "market_cap": 30163540000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "その他金融",
+    "market_cap": 13222033000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "不動産",
+    "market_cap": 23821653000000
+  },
+  {
+    "date": "2025-11",
+    "industry": "サービス",
+    "market_cap": 43400687000000
   },
   {
     "date": "2025-10",
-    "industry": "自動車",
-    "market_cap": 4635000
+    "industry": "水産・農林",
+    "market_cap": 847959000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "鉱",
+    "market_cap": 4147555000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "建設",
+    "market_cap": 28244370000000
   },
   {
     "date": "2025-10",
     "industry": "食料品",
-    "market_cap": 5140000
+    "market_cap": 32085556000000
   },
   {
     "date": "2025-10",
-    "industry": "IT",
-    "market_cap": 5645000
+    "industry": "繊維製品",
+    "market_cap": 3729241000000
   },
   {
     "date": "2025-10",
-    "industry": "鉄道・バス業",
-    "market_cap": 6150000
+    "industry": "パルプ・紙",
+    "market_cap": 1712657000000
   },
   {
     "date": "2025-10",
-    "industry": "保険業",
-    "market_cap": 6655000
+    "industry": "化学",
+    "market_cap": 50909696000000
   },
   {
-    "date": "2025-11",
-    "industry": "銀行業",
-    "market_cap": 1110000
-  },
-  {
-    "date": "2025-11",
-    "industry": "電気・ガス業",
-    "market_cap": 1615000
-  },
-  {
-    "date": "2025-11",
-    "industry": "海運業",
-    "market_cap": 2120000
-  },
-  {
-    "date": "2025-11",
-    "industry": "証券業",
-    "market_cap": 2625000
-  },
-  {
-    "date": "2025-11",
-    "industry": "輸送用機器",
-    "market_cap": 3130000
-  },
-  {
-    "date": "2025-11",
-    "industry": "精密機器",
-    "market_cap": 3635000
-  },
-  {
-    "date": "2025-11",
+    "date": "2025-10",
     "industry": "医薬品",
-    "market_cap": 4140000
+    "market_cap": 42902239000000
   },
   {
-    "date": "2025-11",
-    "industry": "自動車",
-    "market_cap": 4645000
+    "date": "2025-10",
+    "industry": "石油・石炭製品",
+    "market_cap": 4737460000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-10",
+    "industry": "ゴム製品",
+    "market_cap": 7633001000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "ガラス・土石製品",
+    "market_cap": 7391772000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "鉄鋼",
+    "market_cap": 7718313000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "非鉄金属",
+    "market_cap": 18056455000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "金属製品",
+    "market_cap": 5065281000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "機械",
+    "market_cap": 64824647000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "電気機器",
+    "market_cap": 200052026000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "輸送用機器",
+    "market_cap": 91296110000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "精密機器",
+    "market_cap": 20173553000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "その他製品",
+    "market_cap": 29954775000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "電気・ガス",
+    "market_cap": 13379073000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "陸運",
+    "market_cap": 24733818000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "海運",
+    "market_cap": 5660670000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "空運",
+    "market_cap": 2613508000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1799049000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "情報・通信",
+    "market_cap": 118352558000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "卸売",
+    "market_cap": 74059755000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "小売",
+    "market_cap": 62354358000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "銀行",
+    "market_cap": 89014487000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "証券、商品先物取引",
+    "market_cap": 9172137000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "保険",
+    "market_cap": 29393927000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "その他金融",
+    "market_cap": 12303284000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "不動産",
+    "market_cap": 21346110000000
+  },
+  {
+    "date": "2025-10",
+    "industry": "サービス",
+    "market_cap": 42409721000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "水産・農林",
+    "market_cap": 716852000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "鉱",
+    "market_cap": 3354063000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "建設",
+    "market_cap": 19358848000000
+  },
+  {
+    "date": "2024-01",
     "industry": "食料品",
-    "market_cap": 5150000
+    "market_cap": 30450544000000
   },
   {
-    "date": "2025-11",
-    "industry": "IT",
-    "market_cap": 5655000
+    "date": "2024-01",
+    "industry": "繊維製品",
+    "market_cap": 3475809000000
   },
   {
-    "date": "2025-11",
-    "industry": "鉄道・バス業",
-    "market_cap": 6160000
+    "date": "2024-01",
+    "industry": "パルプ・紙",
+    "market_cap": 1680151000000
   },
   {
-    "date": "2025-11",
-    "industry": "保険業",
-    "market_cap": 6665000
+    "date": "2024-01",
+    "industry": "化学",
+    "market_cap": 52748519000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "医薬品",
+    "market_cap": 42069078000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "石油・石炭製品",
+    "market_cap": 3734902000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "ゴム製品",
+    "market_cap": 6667814000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "ガラス・土石製品",
+    "market_cap": 6177779000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "鉄鋼",
+    "market_cap": 8150687000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "非鉄金属",
+    "market_cap": 5436685000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "金属製品",
+    "market_cap": 4425935000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "機械",
+    "market_cap": 45637140000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "電気機器",
+    "market_cap": 142015720000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "輸送用機器",
+    "market_cap": 89842225000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "精密機器",
+    "market_cap": 18080333000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "その他製品",
+    "market_cap": 20143092000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "電気・ガス",
+    "market_cap": 10635778000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "陸運",
+    "market_cap": 23703833000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "海運",
+    "market_cap": 6505365000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "空運",
+    "market_cap": 2826657000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1466830000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "情報・通信",
+    "market_cap": 82710550000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "卸売",
+    "market_cap": 58213193000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "小売",
+    "market_cap": 49285515000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "銀行",
+    "market_cap": 56210860000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "証券、商品先物取引",
+    "market_cap": 6538930000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "保険",
+    "market_cap": 19552105000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "その他金融",
+    "market_cap": 10668688000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "不動産",
+    "market_cap": 17728747000000
+  },
+  {
+    "date": "2024-01",
+    "industry": "サービス",
+    "market_cap": 45128268000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "水産・農林",
+    "market_cap": 670429000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "鉱",
+    "market_cap": 2214066000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "建設",
+    "market_cap": 14562671000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "食料品",
+    "market_cap": 24458522000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "繊維製品",
+    "market_cap": 3057629000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "パルプ・紙",
+    "market_cap": 1361416000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "化学",
+    "market_cap": 42215713000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "医薬品",
+    "market_cap": 38274984000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "石油・石炭製品",
+    "market_cap": 2852021000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "ゴム製品",
+    "market_cap": 4645825000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "ガラス・土石製品",
+    "market_cap": 4888577000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "鉄鋼",
+    "market_cap": 5364801000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "非鉄金属",
+    "market_cap": 4489586000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "金属製品",
+    "market_cap": 3569984000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "機械",
+    "market_cap": 31879659000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "電気機器",
+    "market_cap": 97438614000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "輸送用機器",
+    "market_cap": 59284133000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "精密機器",
+    "market_cap": 15795187000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "その他製品",
+    "market_cap": 15455508000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "電気・ガス",
+    "market_cap": 7666783000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "陸運",
+    "market_cap": 22008674000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "海運",
+    "market_cap": 2939506000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "空運",
+    "market_cap": 2445014000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1157696000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "情報・通信",
+    "market_cap": 70019270000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "卸売",
+    "market_cap": 34275843000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "小売",
+    "market_cap": 38583693000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "銀行",
+    "market_cap": 31348903000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "証券、商品先物取引",
+    "market_cap": 4176293000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "保険",
+    "market_cap": 13560349000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "その他金融",
+    "market_cap": 7467502000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "不動産",
+    "market_cap": 13862874000000
+  },
+  {
+    "date": "2022-09",
+    "industry": "サービス",
+    "market_cap": 38352928000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "水産・農林",
+    "market_cap": 700337000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "鉱",
+    "market_cap": 2596110000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "建設",
+    "market_cap": 15072198000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "食料品",
+    "market_cap": 24633185000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "繊維製品",
+    "market_cap": 3269191000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "パルプ・紙",
+    "market_cap": 1405267000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "化学",
+    "market_cap": 45172063000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "医薬品",
+    "market_cap": 38021115000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "石油・石炭製品",
+    "market_cap": 3243859000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "ゴム製品",
+    "market_cap": 5201850000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "ガラス・土石製品",
+    "market_cap": 5210437000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "鉄鋼",
+    "market_cap": 5783132000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "非鉄金属",
+    "market_cap": 4809380000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "金属製品",
+    "market_cap": 3924793000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "機械",
+    "market_cap": 35015619000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "電気機器",
+    "market_cap": 109767792000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "輸送用機器",
+    "market_cap": 67077570000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "精密機器",
+    "market_cap": 16974747000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "その他製品",
+    "market_cap": 15644564000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "電気・ガス",
+    "market_cap": 8309554000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "陸運",
+    "market_cap": 21941160000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "海運",
+    "market_cap": 4187576000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "空運",
+    "market_cap": 2426746000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1226437000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "情報・通信",
+    "market_cap": 73286702000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "卸売",
+    "market_cap": 37226330000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "小売",
+    "market_cap": 39121965000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "銀行",
+    "market_cap": 33619304000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "証券、商品先物取引",
+    "market_cap": 4411358000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "保険",
+    "market_cap": 14153389000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "その他金融",
+    "market_cap": 8053756000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "不動産",
+    "market_cap": 14205844000000
+  },
+  {
+    "date": "2022-08",
+    "industry": "サービス",
+    "market_cap": 40665295000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "水産・農林",
+    "market_cap": 688322000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "鉱",
+    "market_cap": 2420937000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "建設",
+    "market_cap": 15063014000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "食料品",
+    "market_cap": 24363507000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "繊維製品",
+    "market_cap": 3075671000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "パルプ・紙",
+    "market_cap": 1406754000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "化学",
+    "market_cap": 44908031000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "医薬品",
+    "market_cap": 37782189000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "石油・石炭製品",
+    "market_cap": 3131396000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "ゴム製品",
+    "market_cap": 5040327000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "ガラス・土石製品",
+    "market_cap": 5028194000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "鉄鋼",
+    "market_cap": 5432138000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "非鉄金属",
+    "market_cap": 4489957000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "金属製品",
+    "market_cap": 3894522000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "機械",
+    "market_cap": 34268259000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "電気機器",
+    "market_cap": 109430425000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "輸送用機器",
+    "market_cap": 65160884000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "精密機器",
+    "market_cap": 16486971000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "その他製品",
+    "market_cap": 15993176000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "電気・ガス",
+    "market_cap": 8313552000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "陸運",
+    "market_cap": 21309541000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "海運",
+    "market_cap": 4182016000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "空運",
+    "market_cap": 2209208000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1494901000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "情報・通信",
+    "market_cap": 74044948000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "卸売",
+    "market_cap": 34838053000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "小売",
+    "market_cap": 38321637000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "銀行",
+    "market_cap": 33987902000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "証券、商品先物取引",
+    "market_cap": 4370717000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "保険",
+    "market_cap": 14093920000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "その他金融",
+    "market_cap": 8052476000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "不動産",
+    "market_cap": 14460367000000
+  },
+  {
+    "date": "2022-07",
+    "industry": "サービス",
+    "market_cap": 41091017000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "水産・農林",
+    "market_cap": 668572000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "鉱",
+    "market_cap": 2345542000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "建設",
+    "market_cap": 14782190000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "食料品",
+    "market_cap": 23758410000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "繊維製品",
+    "market_cap": 3092290000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "パルプ・紙",
+    "market_cap": 1424686000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "化学",
+    "market_cap": 43254908000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "医薬品",
+    "market_cap": 36738754000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "石油・石炭製品",
+    "market_cap": 3065999000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "ゴム製品",
+    "market_cap": 4799735000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "ガラス・土石製品",
+    "market_cap": 4880910000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "鉄鋼",
+    "market_cap": 5299300000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "非鉄金属",
+    "market_cap": 4455516000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "金属製品",
+    "market_cap": 3686682000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "機械",
+    "market_cap": 32764981000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "電気機器",
+    "market_cap": 103651120000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "輸送用機器",
+    "market_cap": 64743207000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "精密機器",
+    "market_cap": 15104008000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "その他製品",
+    "market_cap": 15549400000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "電気・ガス",
+    "market_cap": 8492925000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "陸運",
+    "market_cap": 20907678000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "海運",
+    "market_cap": 3644568000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "空運",
+    "market_cap": 2248707000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1426069000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "情報・通信",
+    "market_cap": 70395072000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "卸売",
+    "market_cap": 34126929000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "小売",
+    "market_cap": 36202170000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "銀行",
+    "market_cap": 33480139000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "証券、商品先物取引",
+    "market_cap": 4195198000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "保険",
+    "market_cap": 14409495000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "その他金融",
+    "market_cap": 7631214000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "不動産",
+    "market_cap": 14250122000000
+  },
+  {
+    "date": "2022-06",
+    "industry": "サービス",
+    "market_cap": 37346510000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "水産・農林",
+    "market_cap": 624292000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "鉱",
+    "market_cap": 2641297000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "建設",
+    "market_cap": 14200543000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "食料品",
+    "market_cap": 22464188000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "繊維製品",
+    "market_cap": 2891882000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "パルプ・紙",
+    "market_cap": 1375245000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "化学",
+    "market_cap": 44839340000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "医薬品",
+    "market_cap": 35751898000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "石油・石炭製品",
+    "market_cap": 3144144000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "ゴム製品",
+    "market_cap": 4872536000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "ガラス・土石製品",
+    "market_cap": 4944137000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "鉄鋼",
+    "market_cap": 5782919000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "非鉄金属",
+    "market_cap": 4766912000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "金属製品",
+    "market_cap": 3759472000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "機械",
+    "market_cap": 34111903000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "電気機器",
+    "market_cap": 113306531000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "輸送用機器",
+    "market_cap": 64862545000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "精密機器",
+    "market_cap": 16077480000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "その他製品",
+    "market_cap": 15337150000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "電気・ガス",
+    "market_cap": 7809486000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "陸運",
+    "market_cap": 20185550000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "海運",
+    "market_cap": 4209180000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "空運",
+    "market_cap": 2256612000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1461223000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "情報・通信",
+    "market_cap": 72222931000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "卸売",
+    "market_cap": 35570272000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "小売",
+    "market_cap": 34575684000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "銀行",
+    "market_cap": 32409901000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "証券、商品先物取引",
+    "market_cap": 4372141000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "保険",
+    "market_cap": 14049850000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "その他金融",
+    "market_cap": 7809517000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "不動産",
+    "market_cap": 13850472000000
+  },
+  {
+    "date": "2022-05",
+    "industry": "サービス",
+    "market_cap": 39471830000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "水産・農林",
+    "market_cap": 658409000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "鉱",
+    "market_cap": 2399000000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "建設",
+    "market_cap": 14323680000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "食料品",
+    "market_cap": 23040684000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "繊維製品",
+    "market_cap": 2765145000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "パルプ・紙",
+    "market_cap": 1494774000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "化学",
+    "market_cap": 45015845000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "医薬品",
+    "market_cap": 36638035000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "石油・石炭製品",
+    "market_cap": 2873017000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "ゴム製品",
+    "market_cap": 4575416000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "ガラス・土石製品",
+    "market_cap": 4819873000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "鉄鋼",
+    "market_cap": 5537107000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "非鉄金属",
+    "market_cap": 4761314000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "金属製品",
+    "market_cap": 3565747000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "機械",
+    "market_cap": 32715896000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "電気機器",
+    "market_cap": 108808583000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "輸送用機器",
+    "market_cap": 66551194000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "精密機器",
+    "market_cap": 15013424000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "その他製品",
+    "market_cap": 15303471000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "電気・ガス",
+    "market_cap": 7600630000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "陸運",
+    "market_cap": 20661050000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "海運",
+    "market_cap": 3530057000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "空運",
+    "market_cap": 2128509000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1327336000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "情報・通信",
+    "market_cap": 72682454000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "卸売",
+    "market_cap": 36251139000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "小売",
+    "market_cap": 34811422000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "銀行",
+    "market_cap": 33435179000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "証券、商品先物取引",
+    "market_cap": 4441849000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "保険",
+    "market_cap": 13496608000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "その他金融",
+    "market_cap": 7611734000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "不動産",
+    "market_cap": 13730814000000
+  },
+  {
+    "date": "2022-04",
+    "industry": "サービス",
+    "market_cap": 41115276000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "水産・農林",
+    "market_cap": 643498000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "鉱",
+    "market_cap": 2285346000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "建設",
+    "market_cap": 14902723000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "食料品",
+    "market_cap": 22894857000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "繊維製品",
+    "market_cap": 3005432000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "パルプ・紙",
+    "market_cap": 1514893000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "化学",
+    "market_cap": 46234755000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "医薬品",
+    "market_cap": 35825043000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "石油・石炭製品",
+    "market_cap": 2864829000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "ゴム製品",
+    "market_cap": 4581057000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "ガラス・土石製品",
+    "market_cap": 5267934000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "鉄鋼",
+    "market_cap": 5850200000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "非鉄金属",
+    "market_cap": 5055039000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "金属製品",
+    "market_cap": 3839129000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "機械",
+    "market_cap": 34622156000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "電気機器",
+    "market_cap": 116494072000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "輸送用機器",
+    "market_cap": 67730683000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "精密機器",
+    "market_cap": 15282512000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "その他製品",
+    "market_cap": 15927165000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "電気・ガス",
+    "market_cap": 7224169000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "陸運",
+    "market_cap": 20682141000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "海運",
+    "market_cap": 4104729000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "空運",
+    "market_cap": 2262931000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1443660000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "情報・通信",
+    "market_cap": 73062490000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "卸売",
+    "market_cap": 38099342000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "小売",
+    "market_cap": 37246270000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "銀行",
+    "market_cap": 33872601000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "証券、商品先物取引",
+    "market_cap": 4710319000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "保険",
+    "market_cap": 13907880000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "その他金融",
+    "market_cap": 8445955000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "不動産",
+    "market_cap": 14150440000000
+  },
+  {
+    "date": "2022-03",
+    "industry": "サービス",
+    "market_cap": 44489154000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "水産・農林",
+    "market_cap": 636081000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "鉱",
+    "market_cap": 2019836000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "建設",
+    "market_cap": 15670579000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "食料品",
+    "market_cap": 23495087000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "繊維製品",
+    "market_cap": 3079368000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "パルプ・紙",
+    "market_cap": 1554771000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "化学",
+    "market_cap": 45988915000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "医薬品",
+    "market_cap": 35418785000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "石油・石炭製品",
+    "market_cap": 2762562000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "ゴム製品",
+    "market_cap": 4541393000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "ガラス・土石製品",
+    "market_cap": 5357913000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "鉄鋼",
+    "market_cap": 5832690000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "非鉄金属",
+    "market_cap": 4930176000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "金属製品",
+    "market_cap": 3949447000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "機械",
+    "market_cap": 32898652000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "電気機器",
+    "market_cap": 110377659000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "輸送用機器",
+    "market_cap": 66797012000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "精密機器",
+    "market_cap": 15446330000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "その他製品",
+    "market_cap": 15279495000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "電気・ガス",
+    "market_cap": 7299326000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "陸運",
+    "market_cap": 20108341000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "海運",
+    "market_cap": 3994908000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "空運",
+    "market_cap": 2246819000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "倉庫・運輸関連",
+    "market_cap": 1389127000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "情報・通信",
+    "market_cap": 69529245000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "卸売",
+    "market_cap": 35020716000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "小売",
+    "market_cap": 37262774000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "銀行",
+    "market_cap": 33834302000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "証券、商品先物取引",
+    "market_cap": 4670585000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "保険",
+    "market_cap": 13201721000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "その他金融",
+    "market_cap": 8336008000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "不動産",
+    "market_cap": 13784043000000
+  },
+  {
+    "date": "2022-02",
+    "industry": "サービス",
+    "market_cap": 41904067000000
   }
 ]

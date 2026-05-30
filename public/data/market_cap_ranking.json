@@ -1,722 +1,4174 @@
 [
   {
-    "date": "2025-01",
-    "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 100500000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 51000000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 34833333333
-  },
-  {
-    "date": "2025-01",
-    "rank": 4,
-    "company": "NTT",
-    "market_cap": 27000000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 5,
-    "company": "KDDI",
-    "market_cap": 22500000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 19666666666
-  },
-  {
-    "date": "2025-01",
-    "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 17785714285
-  },
-  {
-    "date": "2025-01",
-    "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 16500000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 15611111111
-  },
-  {
-    "date": "2025-01",
-    "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 15000000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 101500000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 52000000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 35833333333
-  },
-  {
-    "date": "2025-01",
-    "rank": 4,
-    "company": "NTT",
-    "market_cap": 28000000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 5,
-    "company": "KDDI",
-    "market_cap": 23500000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 20666666666
-  },
-  {
-    "date": "2025-01",
-    "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 18785714285
-  },
-  {
-    "date": "2025-01",
-    "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 17500000000
-  },
-  {
-    "date": "2025-01",
-    "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 16611111111
-  },
-  {
-    "date": "2025-01",
-    "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 16000000000
-  },
-  {
-    "date": "2025-03",
-    "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 102500000000
-  },
-  {
-    "date": "2025-03",
-    "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 53000000000
-  },
-  {
-    "date": "2025-03",
-    "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 36833333333
-  },
-  {
-    "date": "2025-03",
-    "rank": 4,
-    "company": "NTT",
-    "market_cap": 29000000000
-  },
-  {
-    "date": "2025-03",
-    "rank": 5,
-    "company": "KDDI",
-    "market_cap": 24500000000
-  },
-  {
-    "date": "2025-03",
-    "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 21666666666
-  },
-  {
-    "date": "2025-03",
-    "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 19785714285
-  },
-  {
-    "date": "2025-03",
-    "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 18500000000
-  },
-  {
-    "date": "2025-03",
-    "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 17611111111
-  },
-  {
-    "date": "2025-03",
-    "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 17000000000
-  },
-  {
-    "date": "2025-04",
-    "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 103500000000
-  },
-  {
-    "date": "2025-04",
-    "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 54000000000
-  },
-  {
-    "date": "2025-04",
-    "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 37833333333
-  },
-  {
-    "date": "2025-04",
-    "rank": 4,
-    "company": "NTT",
-    "market_cap": 30000000000
-  },
-  {
-    "date": "2025-04",
-    "rank": 5,
-    "company": "KDDI",
-    "market_cap": 25500000000
-  },
-  {
-    "date": "2025-04",
-    "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 22666666666
-  },
-  {
-    "date": "2025-04",
-    "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 20785714285
-  },
-  {
-    "date": "2025-04",
-    "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 19500000000
-  },
-  {
-    "date": "2025-04",
-    "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 18611111111
-  },
-  {
-    "date": "2025-04",
-    "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 18000000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 104500000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 55000000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 38833333333
-  },
-  {
-    "date": "2025-05",
-    "rank": 4,
-    "company": "NTT",
-    "market_cap": 31000000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 5,
-    "company": "KDDI",
-    "market_cap": 26500000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 23666666666
-  },
-  {
-    "date": "2025-05",
-    "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 21785714285
-  },
-  {
-    "date": "2025-05",
-    "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 20500000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 19611111111
-  },
-  {
-    "date": "2025-05",
-    "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 19000000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 105500000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 56000000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 39833333333
-  },
-  {
-    "date": "2025-05",
-    "rank": 4,
-    "company": "NTT",
-    "market_cap": 32000000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 5,
-    "company": "KDDI",
-    "market_cap": 27500000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 24666666666
-  },
-  {
-    "date": "2025-05",
-    "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 22785714285
-  },
-  {
-    "date": "2025-05",
-    "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 21500000000
-  },
-  {
-    "date": "2025-05",
-    "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 20611111111
-  },
-  {
-    "date": "2025-05",
-    "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 20000000000
-  },
-  {
-    "date": "2025-06",
-    "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 106500000000
-  },
-  {
-    "date": "2025-06",
-    "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 57000000000
-  },
-  {
-    "date": "2025-06",
-    "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 40833333333
-  },
-  {
-    "date": "2025-06",
-    "rank": 4,
-    "company": "NTT",
-    "market_cap": 33000000000
-  },
-  {
-    "date": "2025-06",
-    "rank": 5,
-    "company": "KDDI",
-    "market_cap": 28500000000
-  },
-  {
-    "date": "2025-06",
-    "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 25666666666
-  },
-  {
-    "date": "2025-06",
-    "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 23785714285
-  },
-  {
-    "date": "2025-06",
-    "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 22500000000
-  },
-  {
-    "date": "2025-06",
-    "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 21611111111
-  },
-  {
-    "date": "2025-06",
-    "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 21000000000
-  },
-  {
-    "date": "2025-07",
-    "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 107500000000
-  },
-  {
-    "date": "2025-07",
-    "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 58000000000
-  },
-  {
-    "date": "2025-07",
-    "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 41833333333
-  },
-  {
-    "date": "2025-07",
-    "rank": 4,
-    "company": "NTT",
-    "market_cap": 34000000000
-  },
-  {
-    "date": "2025-07",
-    "rank": 5,
-    "company": "KDDI",
-    "market_cap": 29500000000
-  },
-  {
-    "date": "2025-07",
-    "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 26666666666
-  },
-  {
-    "date": "2025-07",
-    "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 24785714285
-  },
-  {
-    "date": "2025-07",
-    "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 23500000000
-  },
-  {
-    "date": "2025-07",
-    "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 22611111111
-  },
-  {
-    "date": "2025-07",
-    "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 22000000000
-  },
-  {
-    "date": "2025-08",
-    "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 108500000000
-  },
-  {
-    "date": "2025-08",
-    "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 59000000000
-  },
-  {
-    "date": "2025-08",
-    "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 42833333333
-  },
-  {
-    "date": "2025-08",
-    "rank": 4,
-    "company": "NTT",
-    "market_cap": 35000000000
-  },
-  {
-    "date": "2025-08",
-    "rank": 5,
-    "company": "KDDI",
-    "market_cap": 30500000000
-  },
-  {
-    "date": "2025-08",
-    "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 27666666666
-  },
-  {
-    "date": "2025-08",
-    "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 25785714285
-  },
-  {
-    "date": "2025-08",
-    "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 24500000000
-  },
-  {
-    "date": "2025-08",
-    "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 23611111111
-  },
-  {
-    "date": "2025-08",
-    "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 23000000000
-  },
-  {
     "date": "2025-09",
     "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 109500000000
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 450078000000
   },
   {
     "date": "2025-09",
     "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 60000000000
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 288900000000
   },
   {
     "date": "2025-09",
     "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 43833333333
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 274668000000
   },
   {
     "date": "2025-09",
     "rank": 4,
-    "company": "NTT",
-    "market_cap": 36000000000
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 261920000000
   },
   {
     "date": "2025-09",
     "rank": 5,
-    "company": "KDDI",
-    "market_cap": 31500000000
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 180055000000
   },
   {
     "date": "2025-09",
     "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 28666666666
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 166297000000
   },
   {
     "date": "2025-09",
     "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 26785714285
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 161085000000
   },
   {
     "date": "2025-09",
     "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 25500000000
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 143326000000
   },
   {
     "date": "2025-09",
     "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 24611111111
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 142261000000
   },
   {
     "date": "2025-09",
     "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 24000000000
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 134202000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-09",
+    "rank": 11,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 133542000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 12,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 130863000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 13,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 125386000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 14,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 124534000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 15,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 124322000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 16,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 121242000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 17,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 112239000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 18,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 108265000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 19,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 106931000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 20,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 104211000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 21,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 98854000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 22,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 96331000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 23,
+    "code": "9432",
+    "name": "ＮＴＴ NTT,Inc.",
+    "market_cap": 94934000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 24,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 80836000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 25,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 80365000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 26,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 72157000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 27,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 70254000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 28,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 68650000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 29,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 64884000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 30,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 64826000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 31,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 64651000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 32,
+    "code": "4661",
+    "name": "オリエンタルランド ORIENTAL LAND CO.,LTD.",
+    "market_cap": 64222000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 33,
+    "code": "4568",
+    "name": "第一三共 DAIICHI SANKYO COMPANY,LIMITED",
+    "market_cap": 62797000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 34,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 62163000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 35,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 61414000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 36,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 57845000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 37,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 55268000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 38,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 54219000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 39,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 53977000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 40,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 51945000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 41,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 51856000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 42,
+    "code": "6146",
+    "name": "ディスコ DISCO CORPORATION",
+    "market_cap": 50438000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 43,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 50063000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 44,
+    "code": "8267",
+    "name": "イオン AEON CO.,LTD.",
+    "market_cap": 49964000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 45,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 49069000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 46,
+    "code": "5108",
+    "name": "ブリヂストン BRIDGESTONE CORPORATION",
+    "market_cap": 48874000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 47,
+    "code": "4901",
+    "name": "富士フイルムホールディングス FUJIFILM Holdings Corporation",
+    "market_cap": 45787000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 48,
+    "code": "8591",
+    "name": "オリックス ORIX CORPORATION",
+    "market_cap": 45146000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 49,
+    "code": "8801",
+    "name": "三井不動産 Mitsui Fudosan Co.,Ltd.",
+    "market_cap": 44876000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 50,
+    "code": "9022",
+    "name": "東海旅客鉄道 Central Japan Railway Company",
+    "market_cap": 43702000000
+  },
+  {
+    "date": "2025-08",
     "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 110500000000
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 453789000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-08",
     "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 61000000000
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 272609000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-08",
     "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 44833333333
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 251096000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-08",
     "rank": 4,
-    "company": "NTT",
-    "market_cap": 37000000000
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 238580000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-08",
     "rank": 5,
-    "company": "KDDI",
-    "market_cap": 32500000000
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 185507000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-08",
     "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 29666666666
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 172855000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-08",
     "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 27785714285
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 157263000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-08",
     "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 26500000000
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 148036000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-08",
     "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 25611111111
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 138093000000
   },
   {
-    "date": "2025-10",
+    "date": "2025-08",
     "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 25000000000
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 135130000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-08",
+    "rank": 11,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 134168000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 12,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 133083000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 13,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 126613000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 14,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 123795000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 15,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 123048000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 16,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 109289000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 17,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 109152000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 18,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 106811000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 19,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 99550000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 20,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 97462000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 21,
+    "code": "9432",
+    "name": "ＮＴＴ NTT,Inc.",
+    "market_cap": 95609000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 22,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 90456000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 23,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 89446000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 24,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 86697000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 25,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 75060000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 26,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 74062000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 27,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 70336000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 28,
+    "code": "4568",
+    "name": "第一三共 DAIICHI SANKYO COMPANY,LIMITED",
+    "market_cap": 66851000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 29,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 66618000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 30,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 66051000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 31,
+    "code": "4661",
+    "name": "オリエンタルランド ORIENTAL LAND CO.,LTD.",
+    "market_cap": 63357000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 32,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 62506000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 33,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 62163000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 34,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 61895000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 35,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 58018000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 36,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 56166000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 37,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 55682000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 38,
+    "code": "9613",
+    "name": "ＮＴＴデータグループ NTT DATA GROUP CORPORATION",
+    "market_cap": 55482000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 39,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 54519000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 40,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 53242000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 41,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 50224000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 42,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 49838000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 43,
+    "code": "8267",
+    "name": "イオン AEON CO.,LTD.",
+    "market_cap": 49741000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 44,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 47909000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 45,
+    "code": "5108",
+    "name": "ブリヂストン BRIDGESTONE CORPORATION",
+    "market_cap": 47824000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 46,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 47740000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 47,
+    "code": "8750",
+    "name": "第一生命ホールディングス Dai-ichi Life Holdings,Inc.",
+    "market_cap": 45389000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 48,
+    "code": "6146",
+    "name": "ディスコ DISCO CORPORATION",
+    "market_cap": 44842000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 49,
+    "code": "8591",
+    "name": "オリックス ORIX CORPORATION",
+    "market_cap": 44541000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 50,
+    "code": "8630",
+    "name": "ＳＯＭＰＯホールディングス Sompo Holdings,Inc.",
+    "market_cap": 44441000000
+  },
+  {
+    "date": "2025-07",
     "rank": 1,
-    "company": "トヨタ自動車",
-    "market_cap": 111500000000
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 425911000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-07",
     "rank": 2,
-    "company": "ソニーグループ",
-    "market_cap": 62000000000
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 254689000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-07",
     "rank": 3,
-    "company": "日本銀行",
-    "market_cap": 45833333333
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 226436000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-07",
     "rank": 4,
-    "company": "NTT",
-    "market_cap": 38000000000
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 215195000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-07",
     "rank": 5,
-    "company": "KDDI",
-    "market_cap": 33500000000
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 173606000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-07",
     "rank": 6,
-    "company": "ソフトバンク",
-    "market_cap": 30666666666
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 164803000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-07",
     "rank": 7,
-    "company": "オリエンタルランド",
-    "market_cap": 28785714285
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 149745000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-07",
     "rank": 8,
-    "company": "ファーストリテイリング",
-    "market_cap": 27500000000
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 147590000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-07",
     "rank": 9,
-    "company": "信越化学工業",
-    "market_cap": 26611111111
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 141571000000
   },
   {
-    "date": "2025-11",
+    "date": "2025-07",
     "rank": 10,
-    "company": "ブリヂストン",
-    "market_cap": 26000000000
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 134250000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 11,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 128897000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 12,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 125729000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 13,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 123578000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 14,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 122463000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 15,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 120189000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 16,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 118438000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 17,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 112666000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 18,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 104522000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 19,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 104088000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 20,
+    "code": "9432",
+    "name": "ＮＴＴ NTT,Inc.",
+    "market_cap": 93707000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 21,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 90077000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 22,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 87240000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 23,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 82843000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 24,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 79295000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 25,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 70623000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 26,
+    "code": "4568",
+    "name": "第一三共 DAIICHI SANKYO COMPANY,LIMITED",
+    "market_cap": 70469000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 27,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 68450000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 28,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 66820000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 29,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 65810000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 30,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 60611000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 31,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 60013000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 32,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 59849000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 33,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 57573000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 34,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 57351000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 35,
+    "code": "4661",
+    "name": "オリエンタルランド ORIENTAL LAND CO.,LTD.",
+    "market_cap": 56084000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 36,
+    "code": "9613",
+    "name": "ＮＴＴデータグループ NTT DATA GROUP CORPORATION",
+    "market_cap": 55595000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 37,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 54592000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 38,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 53030000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 39,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 52176000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 40,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 52012000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 41,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 51699000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 42,
+    "code": "6146",
+    "name": "ディスコ DISCO CORPORATION",
+    "market_cap": 49392000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 43,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 46748000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 44,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 46263000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 45,
+    "code": "8267",
+    "name": "イオン AEON CO.,LTD.",
+    "market_cap": 44842000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 46,
+    "code": "8750",
+    "name": "第一生命ホールディングス Dai-ichi Life Holdings,Inc.",
+    "market_cap": 44538000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 47,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 44511000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 48,
+    "code": "5108",
+    "name": "ブリヂストン BRIDGESTONE CORPORATION",
+    "market_cap": 43756000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 49,
+    "code": "6954",
+    "name": "ファナック FANUC CORPORATION",
+    "market_cap": 41957000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 50,
+    "code": "8630",
+    "name": "ＳＯＭＰＯホールディングス Sompo Holdings,Inc.",
+    "market_cap": 41778000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 1,
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 393769000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 2,
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 239302000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 3,
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 229387000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 4,
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 192654000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 5,
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 180258000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 6,
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 157583000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 7,
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 154569000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 8,
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 141160000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 9,
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 140671000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 10,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 133485000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 11,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 130547000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 12,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 126349000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 13,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 121788000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 14,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 119754000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 15,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 118186000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 16,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 116166000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 17,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 106600000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 18,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 103858000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 19,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 100374000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 20,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 94724000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 21,
+    "code": "9432",
+    "name": "日本電信電話 NIPPON TELEGRAPH AND TELEPHONE CORPORATION",
+    "market_cap": 94504000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 22,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 85632000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 23,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 81632000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 24,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 73629000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 25,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 72799000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 26,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 70400000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 27,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 65741000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 28,
+    "code": "4568",
+    "name": "第一三共 DAIICHI SANKYO COMPANY,LIMITED",
+    "market_cap": 63744000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 29,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 60503000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 30,
+    "code": "4661",
+    "name": "オリエンタルランド ORIENTAL LAND CO.,LTD.",
+    "market_cap": 59846000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 31,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 58862000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 32,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 57557000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 33,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 56778000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 34,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 56639000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 35,
+    "code": "9613",
+    "name": "ＮＴＴデータグループ NTT DATA GROUP CORPORATION",
+    "market_cap": 56085000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 36,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 55871000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 37,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 55604000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 38,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 53112000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 39,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 51951000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 40,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 49902000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 41,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 48377000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 42,
+    "code": "6146",
+    "name": "ディスコ DISCO CORPORATION",
+    "market_cap": 46224000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 43,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 45161000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 44,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 45046000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 45,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 42283000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 46,
+    "code": "5108",
+    "name": "ブリヂストン BRIDGESTONE CORPORATION",
+    "market_cap": 42108000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 47,
+    "code": "8267",
+    "name": "イオン AEON CO.,LTD.",
+    "market_cap": 41009000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 48,
+    "code": "8630",
+    "name": "ＳＯＭＰＯホールディングス Sompo Holdings,Inc.",
+    "market_cap": 40592000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 49,
+    "code": "8750",
+    "name": "第一生命ホールディングス Dai-ichi Life Holdings,Inc.",
+    "market_cap": 40556000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 50,
+    "code": "2802",
+    "name": "味の素 Ajinomoto Co.,Inc.",
+    "market_cap": 39310000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 1,
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 437363000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 2,
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 244431000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 3,
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 234307000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 4,
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 185320000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 5,
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 153859000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 6,
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 153699000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 7,
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 147724000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 8,
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 143724000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 9,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 135893000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 10,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 127322000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 11,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 122670000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 12,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 118206000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 13,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 118057000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 14,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 113084000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 15,
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 111925000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 16,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 109548000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 17,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 108475000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 18,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 105769000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 19,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 100600000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 20,
+    "code": "9432",
+    "name": "日本電信電話 NIPPON TELEGRAPH AND TELEPHONE CORPORATION",
+    "market_cap": 98432000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 21,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 92123000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 22,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 88014000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 23,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 77510000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 24,
+    "code": "4568",
+    "name": "第一三共 DAIICHI SANKYO COMPANY,LIMITED",
+    "market_cap": 73317000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 25,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 68719000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 26,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 68634000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 27,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 61367000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 28,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 59193000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 29,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 59173000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 30,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 59112000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 31,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 59026000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 32,
+    "code": "4661",
+    "name": "オリエンタルランド ORIENTAL LAND CO.,LTD.",
+    "market_cap": 57848000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 33,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 57098000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 34,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 56675000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 35,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 56441000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 36,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 56065000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 37,
+    "code": "9613",
+    "name": "ＮＴＴデータグループ NTT DATA GROUP CORPORATION",
+    "market_cap": 55959000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 38,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 55586000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 39,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 51636000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 40,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 48909000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 41,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 48612000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 42,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 44834000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 43,
+    "code": "5108",
+    "name": "ブリヂストン BRIDGESTONE CORPORATION",
+    "market_cap": 44356000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 44,
+    "code": "8630",
+    "name": "ＳＯＭＰＯホールディングス Sompo Holdings,Inc.",
+    "market_cap": 43452000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 45,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 42051000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 46,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 41851000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 47,
+    "code": "8750",
+    "name": "第一生命ホールディングス Dai-ichi Life Holdings,Inc.",
+    "market_cap": 41758000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 48,
+    "code": "6752",
+    "name": "パナソニック ホールディングス Panasonic Holdings Corporation",
+    "market_cap": 40940000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 49,
+    "code": "4901",
+    "name": "富士フイルムホールディングス FUJIFILM Holdings Corporation",
+    "market_cap": 40848000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 50,
+    "code": "4578",
+    "name": "大塚ホールディングス Otsuka Holdings Co.,Ltd.",
+    "market_cap": 40573000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 1,
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 431045000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 2,
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 231909000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 3,
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 217641000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 4,
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 161136000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 5,
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 153635000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 6,
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 149500000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 7,
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 145535000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 8,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 138001000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 9,
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 132071000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 10,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 124205000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 11,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 115411000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 12,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 110622000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 13,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 110392000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 14,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 109087000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 15,
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 105310000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 16,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 103095000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 17,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 100104000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 18,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 94344000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 19,
+    "code": "9432",
+    "name": "日本電信電話 NIPPON TELEGRAPH AND TELEPHONE CORPORATION",
+    "market_cap": 91620000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 20,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 89992000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 21,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 85950000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 22,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 84194000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 23,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 76718000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 24,
+    "code": "4568",
+    "name": "第一三共 DAIICHI SANKYO COMPANY,LIMITED",
+    "market_cap": 69539000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 25,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 68935000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 26,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 65260000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 27,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 58759000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 28,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 58738000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 29,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 58334000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 30,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 58035000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 31,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 55073000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 32,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 54610000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 33,
+    "code": "4661",
+    "name": "オリエンタルランド ORIENTAL LAND CO.,LTD.",
+    "market_cap": 54607000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 34,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 53780000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 35,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 52659000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 36,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 52192000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 37,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 47762000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 38,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 47421000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 39,
+    "code": "8630",
+    "name": "ＳＯＭＰＯホールディングス Sompo Holdings,Inc.",
+    "market_cap": 46007000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 40,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 44918000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 41,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 43460000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 42,
+    "code": "5108",
+    "name": "ブリヂストン BRIDGESTONE CORPORATION",
+    "market_cap": 42757000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 43,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 42364000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 44,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 41983000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 45,
+    "code": "4543",
+    "name": "テルモ TERUMO CORPORATION",
+    "market_cap": 40552000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 46,
+    "code": "6752",
+    "name": "パナソニック ホールディングス Panasonic Holdings Corporation",
+    "market_cap": 40277000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 47,
+    "code": "9613",
+    "name": "ＮＴＴデータグループ NTT DATA GROUP CORPORATION",
+    "market_cap": 39655000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 48,
+    "code": "8801",
+    "name": "三井不動産 Mitsui Fudosan Co.,Ltd.",
+    "market_cap": 39201000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 49,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 38998000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 50,
+    "code": "4689",
+    "name": "ＬＩＮＥヤフー LY Corporation",
+    "market_cap": 38618000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 1,
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 413196000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 2,
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 242681000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 3,
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 231540000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 4,
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 158388000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 5,
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 147414000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 6,
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 142227000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 7,
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 140208000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 8,
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 131297000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 9,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 126328000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 10,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 114159000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 11,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 113458000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 12,
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 109940000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 13,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 109373000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 14,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 105648000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 15,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 103433000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 16,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 102865000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 17,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 99478000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 18,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 94845000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 19,
+    "code": "9432",
+    "name": "日本電信電話 NIPPON TELEGRAPH AND TELEPHONE CORPORATION",
+    "market_cap": 88797000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 20,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 85218000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 21,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 84084000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 22,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 83125000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 23,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 70884000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 24,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 70208000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 25,
+    "code": "4568",
+    "name": "第一三共 DAIICHI SANKYO COMPANY,LIMITED",
+    "market_cap": 67001000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 26,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 61953000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 27,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 61118000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 28,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 58035000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 29,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 57479000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 30,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 56336000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 31,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 54853000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 32,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 54481000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 33,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 53678000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 34,
+    "code": "4661",
+    "name": "オリエンタルランド ORIENTAL LAND CO.,LTD.",
+    "market_cap": 53023000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 35,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 51870000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 36,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 49584000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 37,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 47308000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 38,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 45257000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 39,
+    "code": "8630",
+    "name": "ＳＯＭＰＯホールディングス Sompo Holdings,Inc.",
+    "market_cap": 44779000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 40,
+    "code": "6752",
+    "name": "パナソニック ホールディングス Panasonic Holdings Corporation",
+    "market_cap": 43480000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 41,
+    "code": "8750",
+    "name": "第一生命ホールディングス Dai-ichi Life Holdings,Inc.",
+    "market_cap": 43178000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 42,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 42905000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 43,
+    "code": "4578",
+    "name": "大塚ホールディングス Otsuka Holdings Co.,Ltd.",
+    "market_cap": 42798000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 44,
+    "code": "5108",
+    "name": "ブリヂストン BRIDGESTONE CORPORATION",
+    "market_cap": 42786000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 45,
+    "code": "4543",
+    "name": "テルモ TERUMO CORPORATION",
+    "market_cap": 41411000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 46,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 41398000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 47,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 40948000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 48,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 40838000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 49,
+    "code": "6954",
+    "name": "ファナック FANUC CORPORATION",
+    "market_cap": 40414000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 50,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 39517000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 1,
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 424727000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 2,
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 229941000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 3,
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 229648000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 4,
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 171762000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 5,
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 148818000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 6,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 145186000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 7,
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 144933000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 8,
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 144695000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 9,
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 144489000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 10,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 125711000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 11,
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 121612000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 12,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 107268000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 13,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 106064000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 14,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 105696000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 15,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 104774000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 16,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 104348000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 17,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 101961000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 18,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 100418000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 19,
+    "code": "9432",
+    "name": "日本電信電話 NIPPON TELEGRAPH AND TELEPHONE CORPORATION",
+    "market_cap": 89227000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 20,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 89166000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 21,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 82992000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 22,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 73550000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 23,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 68951000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 24,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 67528000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 25,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 67034000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 26,
+    "code": "4568",
+    "name": "第一三共 DAIICHI SANKYO COMPANY,LIMITED",
+    "market_cap": 65779000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 27,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 62180000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 28,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 60939000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 29,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 59627000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 30,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 56327000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 31,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 55841000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 32,
+    "code": "4661",
+    "name": "オリエンタルランド ORIENTAL LAND CO.,LTD.",
+    "market_cap": 55561000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 33,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 54535000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 34,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 50342000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 35,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 50066000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 36,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 49999000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 37,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 48751000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 38,
+    "code": "6723",
+    "name": "ルネサスエレクトロニクス Renesas Electronics Corporation",
+    "market_cap": 46101000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 39,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 46018000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 40,
+    "code": "6752",
+    "name": "パナソニック ホールディングス Panasonic Holdings Corporation",
+    "market_cap": 45738000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 41,
+    "code": "8630",
+    "name": "ＳＯＭＰＯホールディングス Sompo Holdings,Inc.",
+    "market_cap": 43828000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 42,
+    "code": "6954",
+    "name": "ファナック FANUC CORPORATION",
+    "market_cap": 42892000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 43,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 42469000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 44,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 42147000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 45,
+    "code": "8750",
+    "name": "第一生命ホールディングス Dai-ichi Life Holdings,Inc.",
+    "market_cap": 42063000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 46,
+    "code": "5108",
+    "name": "ブリヂストン BRIDGESTONE CORPORATION",
+    "market_cap": 41665000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 47,
+    "code": "6146",
+    "name": "ディスコ DISCO CORPORATION",
+    "market_cap": 40722000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 48,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 40620000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 49,
+    "code": "4578",
+    "name": "大塚ホールディングス Otsuka Holdings Co.,Ltd.",
+    "market_cap": 40435000000
+  },
+  {
+    "date": "2025-02",
+    "rank": 50,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 39467000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 1,
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 477482000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 2,
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 334313000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 3,
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 298101000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 4,
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 234178000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 5,
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 221426000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 6,
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 210971000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 7,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 209357000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 8,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 206863000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 10,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 201043000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 11,
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 191443000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 12,
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 173407000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 13,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 168900000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 14,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 167367000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 15,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 155693000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 16,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 153575000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 17,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 143832000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 18,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 139286000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 19,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 136272000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 20,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 131673000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 21,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 108151000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 22,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 107536000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 23,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 106449000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 24,
+    "code": "5803",
+    "name": "フジクラ Fujikura Ltd.",
+    "market_cap": 105996000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 25,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 101212000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 26,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 100841000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 27,
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 98951000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 28,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 98478000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 29,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 96155000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 30,
+    "code": "9432",
+    "name": "ＮＴＴ NTT,Inc.",
+    "market_cap": 93584000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 31,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 83857000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 32,
+    "code": "5802",
+    "name": "住友電気工業 Sumitomo Electric Industries,Ltd.",
+    "market_cap": 80902000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 33,
+    "code": "6146",
+    "name": "ディスコ DISCO CORPORATION",
+    "market_cap": 80284000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 34,
+    "code": "6752",
+    "name": "パナソニック ホールディングス Panasonic Holdings Corporation",
+    "market_cap": 78618000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 35,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 78199000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 36,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 70770000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 37,
+    "code": "6954",
+    "name": "ファナック FANUC CORPORATION",
+    "market_cap": 67538000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 38,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 66569000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 39,
+    "code": "8015",
+    "name": "豊田通商 TOYOTA TSUSHO CORPORATION",
+    "market_cap": 64802000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 40,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 64382000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 41,
+    "code": "4578",
+    "name": "大塚ホールディングス Otsuka Holdings Co.,Ltd.",
+    "market_cap": 61900000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 42,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 61002000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 43,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 60209000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 44,
+    "code": "6723",
+    "name": "ルネサスエレクトロニクス Renesas Electronics Corporation",
+    "market_cap": 60084000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 45,
+    "code": "8591",
+    "name": "オリックス ORIX CORPORATION",
+    "market_cap": 59296000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 46,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 57410000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 47,
+    "code": "6762",
+    "name": "ＴＤＫ TDK Corporation",
+    "market_cap": 56187000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 48,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 55947000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 49,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 55324000000
+  },
+  {
+    "date": "2026-04",
+    "rank": 50,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 54799000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 1,
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 499437000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 2,
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 308560000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 3,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 214218000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 4,
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 204520000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 5,
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 203056000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 6,
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 197347000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 7,
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 196119000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 8,
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 191604000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 9,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 175588000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 10,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 173153000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 11,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 156468000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 12,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 151557000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 13,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 148815000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 14,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 144583000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 15,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 142469000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 16,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 141336000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 17,
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 133423000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 18,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 124240000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 19,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 114056000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 20,
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 113960000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 21,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 105406000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 23,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 102060000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 24,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 101240000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 25,
+    "code": "9432",
+    "name": "ＮＴＴ NTT,Inc.",
+    "market_cap": 96468000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 26,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 93301000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 27,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 90125000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 28,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 90022000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 29,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 89849000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 30,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 80266000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 31,
+    "code": "5803",
+    "name": "フジクラ Fujikura Ltd.",
+    "market_cap": 72604000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 32,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 70020000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 33,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 66918000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 34,
+    "code": "5802",
+    "name": "住友電気工業 Sumitomo Electric Industries,Ltd.",
+    "market_cap": 66532000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 35,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 66471000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 36,
+    "code": "6146",
+    "name": "ディスコ DISCO CORPORATION",
+    "market_cap": 66431000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 37,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 65695000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 38,
+    "code": "6752",
+    "name": "パナソニック ホールディングス Panasonic Holdings Corporation",
+    "market_cap": 63461000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 39,
+    "code": "8015",
+    "name": "豊田通商 TOYOTA TSUSHO CORPORATION",
+    "market_cap": 63199000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 40,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 60179000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 41,
+    "code": "4578",
+    "name": "大塚ホールディングス Otsuka Holdings Co.,Ltd.",
+    "market_cap": 59783000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 42,
+    "code": "1605",
+    "name": "ＩＮＰＥＸ INPEX CORPORATION",
+    "market_cap": 58902000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 43,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 58112000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 44,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 57002000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 45,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 56691000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 46,
+    "code": "8630",
+    "name": "ＳＯＭＰＯホールディングス Sompo Holdings,Inc.",
+    "market_cap": 56165000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 47,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 55941000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 48,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 55307000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 49,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 54768000000
+  },
+  {
+    "date": "2026-03",
+    "rank": 50,
+    "code": "8591",
+    "name": "オリックス ORIX CORPORATION",
+    "market_cap": 53577000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 1,
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 604158000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 2,
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 352292000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 3,
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 239432000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 4,
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 233557000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 5,
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 231328000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 6,
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 224037000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 7,
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 219667000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 8,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 213130000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 9,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 207565000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 10,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 205708000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 11,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 179884000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 12,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 178049000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 13,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 175545000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 14,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 170625000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 15,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 169154000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 16,
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 160662000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 17,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 126601000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 18,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 126232000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 19,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 122434000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 20,
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 116817000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 22,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 111857000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 23,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 109457000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 24,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 107378000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 25,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 102506000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 26,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 99778000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 27,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 95652000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 28,
+    "code": "9432",
+    "name": "ＮＴＴ NTT,Inc.",
+    "market_cap": 94075000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 29,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 92585000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 30,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 83661000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 31,
+    "code": "5802",
+    "name": "住友電気工業 Sumitomo Electric Industries,Ltd.",
+    "market_cap": 82371000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 32,
+    "code": "6146",
+    "name": "ディスコ DISCO CORPORATION",
+    "market_cap": 81900000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 33,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 80717000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 34,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 80640000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 35,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 79826000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 36,
+    "code": "5803",
+    "name": "フジクラ Fujikura Ltd.",
+    "market_cap": 79187000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 37,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 74311000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 38,
+    "code": "8015",
+    "name": "豊田通商 TOYOTA TSUSHO CORPORATION",
+    "market_cap": 74224000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 39,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 70082000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 40,
+    "code": "6954",
+    "name": "ファナック FANUC CORPORATION",
+    "market_cap": 69876000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 41,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 65917000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 42,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 65497000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 43,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 65314000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 44,
+    "code": "8591",
+    "name": "オリックス ORIX CORPORATION",
+    "market_cap": 64462000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 45,
+    "code": "8802",
+    "name": "三菱地所 Mitsubishi Estate Company,Limited",
+    "market_cap": 64245000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 46,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 63513000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 47,
+    "code": "6752",
+    "name": "パナソニック ホールディングス Panasonic Holdings Corporation",
+    "market_cap": 62271000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 48,
+    "code": "8267",
+    "name": "イオン AEON CO.,LTD.",
+    "market_cap": 61975000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 49,
+    "code": "8750",
+    "name": "第一生命ホールディングス Dai-ichi Life Holdings,Inc.",
+    "market_cap": 59623000000
+  },
+  {
+    "date": "2026-02",
+    "rank": 50,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 59126000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 1,
+    "code": "7203",
+    "name": "トヨタ自動車 TOYOTA MOTOR CORPORATION",
+    "market_cap": 553456000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 2,
+    "code": "8306",
+    "name": "三菱ＵＦＪフィナンシャル・グループ Mitsubishi UFJ Financial Group,Inc.",
+    "market_cap": 332829000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 3,
+    "code": "6501",
+    "name": "日立製作所 Hitachi,Ltd.",
+    "market_cap": 245617000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 4,
+    "code": "9984",
+    "name": "ソフトバンクグループ SoftBank Group Corp.",
+    "market_cap": 242924000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 5,
+    "code": "6758",
+    "name": "ソニーグループ SONY GROUP CORPORATION",
+    "market_cap": 212414000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 6,
+    "code": "8316",
+    "name": "三井住友フィナンシャルグループ Sumitomo Mitsui Financial Group,Inc.",
+    "market_cap": 211077000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 7,
+    "code": "6857",
+    "name": "アドバンテスト ADVANTEST CORPORATION",
+    "market_cap": 195404000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 8,
+    "code": "8035",
+    "name": "東京エレクトロン Tokyo Electron Limited",
+    "market_cap": 194831000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 9,
+    "code": "9983",
+    "name": "ファーストリテイリング FAST RETAILING CO.,LTD.",
+    "market_cap": 187113000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 10,
+    "code": "8411",
+    "name": "みずほフィナンシャルグループ Mizuho Financial Group,Inc.",
+    "market_cap": 168886000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 11,
+    "code": "8058",
+    "name": "三菱商事 Mitsubishi Corporation",
+    "market_cap": 165065000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 12,
+    "code": "8001",
+    "name": "伊藤忠商事 ITOCHU Corporation",
+    "market_cap": 156190000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 13,
+    "code": "7011",
+    "name": "三菱重工業 Mitsubishi Heavy Industries,Ltd.",
+    "market_cap": 152455000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 14,
+    "code": "4519",
+    "name": "中外製薬 CHUGAI PHARMACEUTICAL CO.,LTD.",
+    "market_cap": 147773000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 15,
+    "code": "8031",
+    "name": "三井物産 MITSUI & CO.,LTD.",
+    "market_cap": 146304000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 16,
+    "code": "6861",
+    "name": "キーエンス KEYENCE CORPORATION",
+    "market_cap": 137266000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 17,
+    "code": "7974",
+    "name": "任天堂 Nintendo Co.,Ltd.",
+    "market_cap": 130583000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 18,
+    "code": "6098",
+    "name": "リクルートホールディングス Recruit Holdings Co.,Ltd.",
+    "market_cap": 126676000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 20,
+    "code": "8766",
+    "name": "東京海上ホールディングス Tokio Marine Holdings,Inc.",
+    "market_cap": 110760000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 21,
+    "code": "9433",
+    "name": "ＫＤＤＩ KDDI CORPORATION",
+    "market_cap": 109156000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 22,
+    "code": "6503",
+    "name": "三菱電機 Mitsubishi Electric Corporation",
+    "market_cap": 102067000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 23,
+    "code": "4063",
+    "name": "信越化学工業 Shin-Etsu Chemical Co.,Ltd.",
+    "market_cap": 101810000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 24,
+    "code": "9434",
+    "name": "ソフトバンク SoftBank Corp.",
+    "market_cap": 100182000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 25,
+    "code": "7182",
+    "name": "ゆうちょ銀行 JAPAN POST BANK Co.,Ltd.",
+    "market_cap": 97979000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 26,
+    "code": "9432",
+    "name": "ＮＴＴ NTT,Inc.",
+    "market_cap": 95057000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 27,
+    "code": "7741",
+    "name": "ＨＯＹＡ HOYA CORPORATION",
+    "market_cap": 88765000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 28,
+    "code": "6702",
+    "name": "富士通 Fujitsu Limited",
+    "market_cap": 88705000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 29,
+    "code": "8002",
+    "name": "丸紅 Marubeni Corporation",
+    "market_cap": 84947000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 30,
+    "code": "4502",
+    "name": "武田薬品工業 Takeda Pharmaceutical Company Limited",
+    "market_cap": 83399000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 31,
+    "code": "7267",
+    "name": "本田技研工業 HONDA MOTOR CO.,LTD.",
+    "market_cap": 82104000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 32,
+    "code": "8053",
+    "name": "住友商事 SUMITOMO CORPORATION (SUMITOMO SHOJI KAISHA,LTD.)",
+    "market_cap": 75702000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 33,
+    "code": "2914",
+    "name": "日本たばこ産業 JAPAN TOBACCO INC.",
+    "market_cap": 74413000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 34,
+    "code": "6146",
+    "name": "ディスコ DISCO CORPORATION",
+    "market_cap": 71780000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 35,
+    "code": "6701",
+    "name": "日本電気 NEC Corporation",
+    "market_cap": 71077000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 36,
+    "code": "6201",
+    "name": "豊田自動織機 TOYOTA INDUSTRIES CORPORATION",
+    "market_cap": 64369000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 37,
+    "code": "7751",
+    "name": "キヤノン CANON INC.",
+    "market_cap": 62486000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 38,
+    "code": "6902",
+    "name": "デンソー DENSO CORPORATION",
+    "market_cap": 62382000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 39,
+    "code": "6954",
+    "name": "ファナック FANUC CORPORATION",
+    "market_cap": 61585000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 40,
+    "code": "6981",
+    "name": "村田製作所 Murata Manufacturing Co.,Ltd.",
+    "market_cap": 61559000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 41,
+    "code": "8015",
+    "name": "豊田通商 TOYOTA TSUSHO CORPORATION",
+    "market_cap": 59545000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 42,
+    "code": "8267",
+    "name": "イオン AEON CO.,LTD.",
+    "market_cap": 58871000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 43,
+    "code": "8725",
+    "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス MS&AD Insurance Group Holdings,Inc.",
+    "market_cap": 58687000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 44,
+    "code": "5803",
+    "name": "フジクラ Fujikura Ltd.",
+    "market_cap": 57900000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 45,
+    "code": "3382",
+    "name": "セブン＆アイ・ホールディングス Seven & i Holdings Co.,Ltd.",
+    "market_cap": 57586000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 46,
+    "code": "6301",
+    "name": "小松製作所 KOMATSU LTD.",
+    "market_cap": 55159000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 47,
+    "code": "8591",
+    "name": "オリックス ORIX CORPORATION",
+    "market_cap": 54589000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 48,
+    "code": "6367",
+    "name": "ダイキン工業 DAIKIN INDUSTRIES,LTD.",
+    "market_cap": 54475000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 49,
+    "code": "4568",
+    "name": "第一三共 DAIICHI SANKYO COMPANY,LIMITED",
+    "market_cap": 53723000000
+  },
+  {
+    "date": "2026-01",
+    "rank": 50,
+    "code": "5802",
+    "name": "住友電気工業 Sumitomo Electric Industries,Ltd.",
+    "market_cap": 53384000000
   }
 ]
