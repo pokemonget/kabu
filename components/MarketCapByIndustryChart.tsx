@@ -58,14 +58,10 @@ export default function MarketCapByIndustryChart({ data, startDate, endDate }: P
       }))
   }, [data])
 
-  // 縦軸のフォーマット修正
+  // 正しい兆単位表示（百万円 → 兆円変換）
   const formatYAxis = (value: number) => {
-    if (value >= 1_000_000) {
-      return `${(value / 1_000_000).toFixed(1)}兆`
-    } else if (value >= 10_000) {
-      return `${(value / 10_000).toFixed(0)}万`
-    }
-    return value.toLocaleString()
+    const trillion = value / 10_000_000   // 百万円単位 → 兆円
+    return `${trillion.toFixed(1)}兆`
   }
 
   const CustomTooltip = ({ active, payload, label }: any) => {
@@ -80,7 +76,7 @@ export default function MarketCapByIndustryChart({ data, startDate, endDate }: P
               <div key={i} className="flex justify-between gap-6 py-0.5">
                 <span className="font-medium">{entry.name}</span>
                 <span className="font-mono text-blue-600">
-                  {Number(entry.value).toLocaleString()} 百万円
+                  {(Number(entry.value) / 10_000_000).toFixed(1)} 兆円
                 </span>
               </div>
             ))}
@@ -104,7 +100,7 @@ export default function MarketCapByIndustryChart({ data, startDate, endDate }: P
           
           <YAxis 
             tickFormatter={formatYAxis}
-            width={80}
+            width={90}
           />
 
           <Tooltip content={<CustomTooltip />} />
