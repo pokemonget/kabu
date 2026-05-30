@@ -18,11 +18,6 @@ interface MarketCapData {
   market_cap: number
 }
 
-interface ChartData {
-  date: string
-  [key: string]: string | number
-}
-
 interface MarketCapByIndustryChartProps {
   data: MarketCapData[]
   startDate: string

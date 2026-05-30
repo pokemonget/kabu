@@ -19,11 +19,6 @@ interface RankingData {
   market_cap: number
 }
 
-interface ChartData {
-  date: string
-  [key: string]: string | number
-}
-
 interface MarketCapRankingChartProps {
   data: RankingData[]
   startDate: string
