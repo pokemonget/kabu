@@ -1,1 +1,722 @@
-[]
+[
+  {
+    "date": "2025-01",
+    "industry": "銀行業",
+    "market_cap": 1000000
+  },
+  {
+    "date": "2025-01",
+    "industry": "電気・ガス業",
+    "market_cap": 1505000
+  },
+  {
+    "date": "2025-01",
+    "industry": "海運業",
+    "market_cap": 2010000
+  },
+  {
+    "date": "2025-01",
+    "industry": "証券業",
+    "market_cap": 2515000
+  },
+  {
+    "date": "2025-01",
+    "industry": "輸送用機器",
+    "market_cap": 3020000
+  },
+  {
+    "date": "2025-01",
+    "industry": "精密機器",
+    "market_cap": 3525000
+  },
+  {
+    "date": "2025-01",
+    "industry": "医薬品",
+    "market_cap": 4030000
+  },
+  {
+    "date": "2025-01",
+    "industry": "自動車",
+    "market_cap": 4535000
+  },
+  {
+    "date": "2025-01",
+    "industry": "食料品",
+    "market_cap": 5040000
+  },
+  {
+    "date": "2025-01",
+    "industry": "IT",
+    "market_cap": 5545000
+  },
+  {
+    "date": "2025-01",
+    "industry": "鉄道・バス業",
+    "market_cap": 6050000
+  },
+  {
+    "date": "2025-01",
+    "industry": "保険業",
+    "market_cap": 6555000
+  },
+  {
+    "date": "2025-01",
+    "industry": "銀行業",
+    "market_cap": 1010000
+  },
+  {
+    "date": "2025-01",
+    "industry": "電気・ガス業",
+    "market_cap": 1515000
+  },
+  {
+    "date": "2025-01",
+    "industry": "海運業",
+    "market_cap": 2020000
+  },
+  {
+    "date": "2025-01",
+    "industry": "証券業",
+    "market_cap": 2525000
+  },
+  {
+    "date": "2025-01",
+    "industry": "輸送用機器",
+    "market_cap": 3030000
+  },
+  {
+    "date": "2025-01",
+    "industry": "精密機器",
+    "market_cap": 3535000
+  },
+  {
+    "date": "2025-01",
+    "industry": "医薬品",
+    "market_cap": 4040000
+  },
+  {
+    "date": "2025-01",
+    "industry": "自動車",
+    "market_cap": 4545000
+  },
+  {
+    "date": "2025-01",
+    "industry": "食料品",
+    "market_cap": 5050000
+  },
+  {
+    "date": "2025-01",
+    "industry": "IT",
+    "market_cap": 5555000
+  },
+  {
+    "date": "2025-01",
+    "industry": "鉄道・バス業",
+    "market_cap": 6060000
+  },
+  {
+    "date": "2025-01",
+    "industry": "保険業",
+    "market_cap": 6565000
+  },
+  {
+    "date": "2025-03",
+    "industry": "銀行業",
+    "market_cap": 1020000
+  },
+  {
+    "date": "2025-03",
+    "industry": "電気・ガス業",
+    "market_cap": 1525000
+  },
+  {
+    "date": "2025-03",
+    "industry": "海運業",
+    "market_cap": 2030000
+  },
+  {
+    "date": "2025-03",
+    "industry": "証券業",
+    "market_cap": 2535000
+  },
+  {
+    "date": "2025-03",
+    "industry": "輸送用機器",
+    "market_cap": 3040000
+  },
+  {
+    "date": "2025-03",
+    "industry": "精密機器",
+    "market_cap": 3545000
+  },
+  {
+    "date": "2025-03",
+    "industry": "医薬品",
+    "market_cap": 4050000
+  },
+  {
+    "date": "2025-03",
+    "industry": "自動車",
+    "market_cap": 4555000
+  },
+  {
+    "date": "2025-03",
+    "industry": "食料品",
+    "market_cap": 5060000
+  },
+  {
+    "date": "2025-03",
+    "industry": "IT",
+    "market_cap": 5565000
+  },
+  {
+    "date": "2025-03",
+    "industry": "鉄道・バス業",
+    "market_cap": 6070000
+  },
+  {
+    "date": "2025-03",
+    "industry": "保険業",
+    "market_cap": 6575000
+  },
+  {
+    "date": "2025-04",
+    "industry": "銀行業",
+    "market_cap": 1030000
+  },
+  {
+    "date": "2025-04",
+    "industry": "電気・ガス業",
+    "market_cap": 1535000
+  },
+  {
+    "date": "2025-04",
+    "industry": "海運業",
+    "market_cap": 2040000
+  },
+  {
+    "date": "2025-04",
+    "industry": "証券業",
+    "market_cap": 2545000
+  },
+  {
+    "date": "2025-04",
+    "industry": "輸送用機器",
+    "market_cap": 3050000
+  },
+  {
+    "date": "2025-04",
+    "industry": "精密機器",
+    "market_cap": 3555000
+  },
+  {
+    "date": "2025-04",
+    "industry": "医薬品",
+    "market_cap": 4060000
+  },
+  {
+    "date": "2025-04",
+    "industry": "自動車",
+    "market_cap": 4565000
+  },
+  {
+    "date": "2025-04",
+    "industry": "食料品",
+    "market_cap": 5070000
+  },
+  {
+    "date": "2025-04",
+    "industry": "IT",
+    "market_cap": 5575000
+  },
+  {
+    "date": "2025-04",
+    "industry": "鉄道・バス業",
+    "market_cap": 6080000
+  },
+  {
+    "date": "2025-04",
+    "industry": "保険業",
+    "market_cap": 6585000
+  },
+  {
+    "date": "2025-05",
+    "industry": "銀行業",
+    "market_cap": 1040000
+  },
+  {
+    "date": "2025-05",
+    "industry": "電気・ガス業",
+    "market_cap": 1545000
+  },
+  {
+    "date": "2025-05",
+    "industry": "海運業",
+    "market_cap": 2050000
+  },
+  {
+    "date": "2025-05",
+    "industry": "証券業",
+    "market_cap": 2555000
+  },
+  {
+    "date": "2025-05",
+    "industry": "輸送用機器",
+    "market_cap": 3060000
+  },
+  {
+    "date": "2025-05",
+    "industry": "精密機器",
+    "market_cap": 3565000
+  },
+  {
+    "date": "2025-05",
+    "industry": "医薬品",
+    "market_cap": 4070000
+  },
+  {
+    "date": "2025-05",
+    "industry": "自動車",
+    "market_cap": 4575000
+  },
+  {
+    "date": "2025-05",
+    "industry": "食料品",
+    "market_cap": 5080000
+  },
+  {
+    "date": "2025-05",
+    "industry": "IT",
+    "market_cap": 5585000
+  },
+  {
+    "date": "2025-05",
+    "industry": "鉄道・バス業",
+    "market_cap": 6090000
+  },
+  {
+    "date": "2025-05",
+    "industry": "保険業",
+    "market_cap": 6595000
+  },
+  {
+    "date": "2025-05",
+    "industry": "銀行業",
+    "market_cap": 1050000
+  },
+  {
+    "date": "2025-05",
+    "industry": "電気・ガス業",
+    "market_cap": 1555000
+  },
+  {
+    "date": "2025-05",
+    "industry": "海運業",
+    "market_cap": 2060000
+  },
+  {
+    "date": "2025-05",
+    "industry": "証券業",
+    "market_cap": 2565000
+  },
+  {
+    "date": "2025-05",
+    "industry": "輸送用機器",
+    "market_cap": 3070000
+  },
+  {
+    "date": "2025-05",
+    "industry": "精密機器",
+    "market_cap": 3575000
+  },
+  {
+    "date": "2025-05",
+    "industry": "医薬品",
+    "market_cap": 4080000
+  },
+  {
+    "date": "2025-05",
+    "industry": "自動車",
+    "market_cap": 4585000
+  },
+  {
+    "date": "2025-05",
+    "industry": "食料品",
+    "market_cap": 5090000
+  },
+  {
+    "date": "2025-05",
+    "industry": "IT",
+    "market_cap": 5595000
+  },
+  {
+    "date": "2025-05",
+    "industry": "鉄道・バス業",
+    "market_cap": 6100000
+  },
+  {
+    "date": "2025-05",
+    "industry": "保険業",
+    "market_cap": 6605000
+  },
+  {
+    "date": "2025-06",
+    "industry": "銀行業",
+    "market_cap": 1060000
+  },
+  {
+    "date": "2025-06",
+    "industry": "電気・ガス業",
+    "market_cap": 1565000
+  },
+  {
+    "date": "2025-06",
+    "industry": "海運業",
+    "market_cap": 2070000
+  },
+  {
+    "date": "2025-06",
+    "industry": "証券業",
+    "market_cap": 2575000
+  },
+  {
+    "date": "2025-06",
+    "industry": "輸送用機器",
+    "market_cap": 3080000
+  },
+  {
+    "date": "2025-06",
+    "industry": "精密機器",
+    "market_cap": 3585000
+  },
+  {
+    "date": "2025-06",
+    "industry": "医薬品",
+    "market_cap": 4090000
+  },
+  {
+    "date": "2025-06",
+    "industry": "自動車",
+    "market_cap": 4595000
+  },
+  {
+    "date": "2025-06",
+    "industry": "食料品",
+    "market_cap": 5100000
+  },
+  {
+    "date": "2025-06",
+    "industry": "IT",
+    "market_cap": 5605000
+  },
+  {
+    "date": "2025-06",
+    "industry": "鉄道・バス業",
+    "market_cap": 6110000
+  },
+  {
+    "date": "2025-06",
+    "industry": "保険業",
+    "market_cap": 6615000
+  },
+  {
+    "date": "2025-07",
+    "industry": "銀行業",
+    "market_cap": 1070000
+  },
+  {
+    "date": "2025-07",
+    "industry": "電気・ガス業",
+    "market_cap": 1575000
+  },
+  {
+    "date": "2025-07",
+    "industry": "海運業",
+    "market_cap": 2080000
+  },
+  {
+    "date": "2025-07",
+    "industry": "証券業",
+    "market_cap": 2585000
+  },
+  {
+    "date": "2025-07",
+    "industry": "輸送用機器",
+    "market_cap": 3090000
+  },
+  {
+    "date": "2025-07",
+    "industry": "精密機器",
+    "market_cap": 3595000
+  },
+  {
+    "date": "2025-07",
+    "industry": "医薬品",
+    "market_cap": 4100000
+  },
+  {
+    "date": "2025-07",
+    "industry": "自動車",
+    "market_cap": 4605000
+  },
+  {
+    "date": "2025-07",
+    "industry": "食料品",
+    "market_cap": 5110000
+  },
+  {
+    "date": "2025-07",
+    "industry": "IT",
+    "market_cap": 5615000
+  },
+  {
+    "date": "2025-07",
+    "industry": "鉄道・バス業",
+    "market_cap": 6120000
+  },
+  {
+    "date": "2025-07",
+    "industry": "保険業",
+    "market_cap": 6625000
+  },
+  {
+    "date": "2025-08",
+    "industry": "銀行業",
+    "market_cap": 1080000
+  },
+  {
+    "date": "2025-08",
+    "industry": "電気・ガス業",
+    "market_cap": 1585000
+  },
+  {
+    "date": "2025-08",
+    "industry": "海運業",
+    "market_cap": 2090000
+  },
+  {
+    "date": "2025-08",
+    "industry": "証券業",
+    "market_cap": 2595000
+  },
+  {
+    "date": "2025-08",
+    "industry": "輸送用機器",
+    "market_cap": 3100000
+  },
+  {
+    "date": "2025-08",
+    "industry": "精密機器",
+    "market_cap": 3605000
+  },
+  {
+    "date": "2025-08",
+    "industry": "医薬品",
+    "market_cap": 4110000
+  },
+  {
+    "date": "2025-08",
+    "industry": "自動車",
+    "market_cap": 4615000
+  },
+  {
+    "date": "2025-08",
+    "industry": "食料品",
+    "market_cap": 5120000
+  },
+  {
+    "date": "2025-08",
+    "industry": "IT",
+    "market_cap": 5625000
+  },
+  {
+    "date": "2025-08",
+    "industry": "鉄道・バス業",
+    "market_cap": 6130000
+  },
+  {
+    "date": "2025-08",
+    "industry": "保険業",
+    "market_cap": 6635000
+  },
+  {
+    "date": "2025-09",
+    "industry": "銀行業",
+    "market_cap": 1090000
+  },
+  {
+    "date": "2025-09",
+    "industry": "電気・ガス業",
+    "market_cap": 1595000
+  },
+  {
+    "date": "2025-09",
+    "industry": "海運業",
+    "market_cap": 2100000
+  },
+  {
+    "date": "2025-09",
+    "industry": "証券業",
+    "market_cap": 2605000
+  },
+  {
+    "date": "2025-09",
+    "industry": "輸送用機器",
+    "market_cap": 3110000
+  },
+  {
+    "date": "2025-09",
+    "industry": "精密機器",
+    "market_cap": 3615000
+  },
+  {
+    "date": "2025-09",
+    "industry": "医薬品",
+    "market_cap": 4120000
+  },
+  {
+    "date": "2025-09",
+    "industry": "自動車",
+    "market_cap": 4625000
+  },
+  {
+    "date": "2025-09",
+    "industry": "食料品",
+    "market_cap": 5130000
+  },
+  {
+    "date": "2025-09",
+    "industry": "IT",
+    "market_cap": 5635000
+  },
+  {
+    "date": "2025-09",
+    "industry": "鉄道・バス業",
+    "market_cap": 6140000
+  },
+  {
+    "date": "2025-09",
+    "industry": "保険業",
+    "market_cap": 6645000
+  },
+  {
+    "date": "2025-10",
+    "industry": "銀行業",
+    "market_cap": 1100000
+  },
+  {
+    "date": "2025-10",
+    "industry": "電気・ガス業",
+    "market_cap": 1605000
+  },
+  {
+    "date": "2025-10",
+    "industry": "海運業",
+    "market_cap": 2110000
+  },
+  {
+    "date": "2025-10",
+    "industry": "証券業",
+    "market_cap": 2615000
+  },
+  {
+    "date": "2025-10",
+    "industry": "輸送用機器",
+    "market_cap": 3120000
+  },
+  {
+    "date": "2025-10",
+    "industry": "精密機器",
+    "market_cap": 3625000
+  },
+  {
+    "date": "2025-10",
+    "industry": "医薬品",
+    "market_cap": 4130000
+  },
+  {
+    "date": "2025-10",
+    "industry": "自動車",
+    "market_cap": 4635000
+  },
+  {
+    "date": "2025-10",
+    "industry": "食料品",
+    "market_cap": 5140000
+  },
+  {
+    "date": "2025-10",
+    "industry": "IT",
+    "market_cap": 5645000
+  },
+  {
+    "date": "2025-10",
+    "industry": "鉄道・バス業",
+    "market_cap": 6150000
+  },
+  {
+    "date": "2025-10",
+    "industry": "保険業",
+    "market_cap": 6655000
+  },
+  {
+    "date": "2025-11",
+    "industry": "銀行業",
+    "market_cap": 1110000
+  },
+  {
+    "date": "2025-11",
+    "industry": "電気・ガス業",
+    "market_cap": 1615000
+  },
+  {
+    "date": "2025-11",
+    "industry": "海運業",
+    "market_cap": 2120000
+  },
+  {
+    "date": "2025-11",
+    "industry": "証券業",
+    "market_cap": 2625000
+  },
+  {
+    "date": "2025-11",
+    "industry": "輸送用機器",
+    "market_cap": 3130000
+  },
+  {
+    "date": "2025-11",
+    "industry": "精密機器",
+    "market_cap": 3635000
+  },
+  {
+    "date": "2025-11",
+    "industry": "医薬品",
+    "market_cap": 4140000
+  },
+  {
+    "date": "2025-11",
+    "industry": "自動車",
+    "market_cap": 4645000
+  },
+  {
+    "date": "2025-11",
+    "industry": "食料品",
+    "market_cap": 5150000
+  },
+  {
+    "date": "2025-11",
+    "industry": "IT",
+    "market_cap": 5655000
+  },
+  {
+    "date": "2025-11",
+    "industry": "鉄道・バス業",
+    "market_cap": 6160000
+  },
+  {
+    "date": "2025-11",
+    "industry": "保険業",
+    "market_cap": 6665000
+  }
+]

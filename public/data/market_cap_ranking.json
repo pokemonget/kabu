@@ -1,1 +1,722 @@
-[]
+[
+  {
+    "date": "2025-01",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 100500000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 51000000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 34833333333
+  },
+  {
+    "date": "2025-01",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 27000000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 22500000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 19666666666
+  },
+  {
+    "date": "2025-01",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 17785714285
+  },
+  {
+    "date": "2025-01",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 16500000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 15611111111
+  },
+  {
+    "date": "2025-01",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 15000000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 101500000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 52000000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 35833333333
+  },
+  {
+    "date": "2025-01",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 28000000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 23500000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 20666666666
+  },
+  {
+    "date": "2025-01",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 18785714285
+  },
+  {
+    "date": "2025-01",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 17500000000
+  },
+  {
+    "date": "2025-01",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 16611111111
+  },
+  {
+    "date": "2025-01",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 16000000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 102500000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 53000000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 36833333333
+  },
+  {
+    "date": "2025-03",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 29000000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 24500000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 21666666666
+  },
+  {
+    "date": "2025-03",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 19785714285
+  },
+  {
+    "date": "2025-03",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 18500000000
+  },
+  {
+    "date": "2025-03",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 17611111111
+  },
+  {
+    "date": "2025-03",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 17000000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 103500000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 54000000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 37833333333
+  },
+  {
+    "date": "2025-04",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 30000000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 25500000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 22666666666
+  },
+  {
+    "date": "2025-04",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 20785714285
+  },
+  {
+    "date": "2025-04",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 19500000000
+  },
+  {
+    "date": "2025-04",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 18611111111
+  },
+  {
+    "date": "2025-04",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 18000000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 104500000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 55000000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 38833333333
+  },
+  {
+    "date": "2025-05",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 31000000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 26500000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 23666666666
+  },
+  {
+    "date": "2025-05",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 21785714285
+  },
+  {
+    "date": "2025-05",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 20500000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 19611111111
+  },
+  {
+    "date": "2025-05",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 19000000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 105500000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 56000000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 39833333333
+  },
+  {
+    "date": "2025-05",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 32000000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 27500000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 24666666666
+  },
+  {
+    "date": "2025-05",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 22785714285
+  },
+  {
+    "date": "2025-05",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 21500000000
+  },
+  {
+    "date": "2025-05",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 20611111111
+  },
+  {
+    "date": "2025-05",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 20000000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 106500000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 57000000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 40833333333
+  },
+  {
+    "date": "2025-06",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 33000000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 28500000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 25666666666
+  },
+  {
+    "date": "2025-06",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 23785714285
+  },
+  {
+    "date": "2025-06",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 22500000000
+  },
+  {
+    "date": "2025-06",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 21611111111
+  },
+  {
+    "date": "2025-06",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 21000000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 107500000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 58000000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 41833333333
+  },
+  {
+    "date": "2025-07",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 34000000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 29500000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 26666666666
+  },
+  {
+    "date": "2025-07",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 24785714285
+  },
+  {
+    "date": "2025-07",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 23500000000
+  },
+  {
+    "date": "2025-07",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 22611111111
+  },
+  {
+    "date": "2025-07",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 22000000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 108500000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 59000000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 42833333333
+  },
+  {
+    "date": "2025-08",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 35000000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 30500000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 27666666666
+  },
+  {
+    "date": "2025-08",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 25785714285
+  },
+  {
+    "date": "2025-08",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 24500000000
+  },
+  {
+    "date": "2025-08",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 23611111111
+  },
+  {
+    "date": "2025-08",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 23000000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 109500000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 60000000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 43833333333
+  },
+  {
+    "date": "2025-09",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 36000000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 31500000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 28666666666
+  },
+  {
+    "date": "2025-09",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 26785714285
+  },
+  {
+    "date": "2025-09",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 25500000000
+  },
+  {
+    "date": "2025-09",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 24611111111
+  },
+  {
+    "date": "2025-09",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 24000000000
+  },
+  {
+    "date": "2025-10",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 110500000000
+  },
+  {
+    "date": "2025-10",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 61000000000
+  },
+  {
+    "date": "2025-10",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 44833333333
+  },
+  {
+    "date": "2025-10",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 37000000000
+  },
+  {
+    "date": "2025-10",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 32500000000
+  },
+  {
+    "date": "2025-10",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 29666666666
+  },
+  {
+    "date": "2025-10",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 27785714285
+  },
+  {
+    "date": "2025-10",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 26500000000
+  },
+  {
+    "date": "2025-10",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 25611111111
+  },
+  {
+    "date": "2025-10",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 25000000000
+  },
+  {
+    "date": "2025-11",
+    "rank": 1,
+    "company": "トヨタ自動車",
+    "market_cap": 111500000000
+  },
+  {
+    "date": "2025-11",
+    "rank": 2,
+    "company": "ソニーグループ",
+    "market_cap": 62000000000
+  },
+  {
+    "date": "2025-11",
+    "rank": 3,
+    "company": "日本銀行",
+    "market_cap": 45833333333
+  },
+  {
+    "date": "2025-11",
+    "rank": 4,
+    "company": "NTT",
+    "market_cap": 38000000000
+  },
+  {
+    "date": "2025-11",
+    "rank": 5,
+    "company": "KDDI",
+    "market_cap": 33500000000
+  },
+  {
+    "date": "2025-11",
+    "rank": 6,
+    "company": "ソフトバンク",
+    "market_cap": 30666666666
+  },
+  {
+    "date": "2025-11",
+    "rank": 7,
+    "company": "オリエンタルランド",
+    "market_cap": 28785714285
+  },
+  {
+    "date": "2025-11",
+    "rank": 8,
+    "company": "ファーストリテイリング",
+    "market_cap": 27500000000
+  },
+  {
+    "date": "2025-11",
+    "rank": 9,
+    "company": "信越化学工業",
+    "market_cap": 26611111111
+  },
+  {
+    "date": "2025-11",
+    "rank": 10,
+    "company": "ブリヂストン",
+    "market_cap": 26000000000
+  }
+]
