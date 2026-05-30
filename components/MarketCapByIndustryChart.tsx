@@ -25,63 +25,60 @@ interface Props {
 }
 
 export default function MarketCapByIndustryChart({ data, startDate, endDate }: Props) {
-  // 時系列データとして整形 + 凡例の順序を固定（時価総額降順）
   const chartData = useMemo(() => {
     if (!data || data.length === 0) return []
 
     const dates = [...new Set(data.map(d => d.date))].sort()
 
-    // 日付範囲でフィルタ
-    const filteredDates = dates.filter(date => 
-      date >= startDate && date <= endDate
-    )
+    const filteredDates = dates.filter(date => date >= startDate && date <= endDate)
 
-    // 日付ごとにグループ化
-    const grouped = filteredDates.map(date => {
-      const items = data.filter(d => d.date === date)
-      const obj: any = { date }
-      
-      // 時価総額降順でソートして上位業種を優先表示
-      const sorted = [...items].sort((a, b) => b.market_cap - a.market_cap)
+    return filteredDates.map(date => {
+      const itemsForDate = data.filter(d => d.date === date)
+      const row: any = { date }
+
+      // 時価総額降順でソートして登録
+      const sorted = [...itemsForDate].sort((a, b) => b.market_cap - a.market_cap)
       
       sorted.forEach(item => {
-        obj[item.industry] = item.market_cap
+        row[item.industry] = Number(item.market_cap)
       })
-      return obj
-    })
 
-    return grouped
+      return row
+    })
   }, [data, startDate, endDate])
 
-  // 凡例の順序を固定（時価総額が大きい順）
+  // 凡例の順序を固定（時価総額大きい順）
   const legendPayload = useMemo(() => {
     if (!data || data.length === 0) return []
-    
-    const latest = [...data]
-      .sort((a, b) => b.market_cap - a.market_cap)
-      .slice(0, 12) // 上位12業種まで表示（多すぎると見にくい）
 
-    return latest.map(item => ({
-      value: item.industry,
-      type: 'line' as const,
-      color: '#2563eb', // 必要なら色を業種ごとに変えても可
-    }))
+    const latestDate = [...new Set(data.map(d => d.date))].sort().reverse()[0]
+    const latestData = data.filter(d => d.date === latestDate)
+
+    return latestData
+      .sort((a, b) => b.market_cap - a.market_cap)
+      .slice(0, 15) // 上位15業種まで
+      .map((item, index) => ({
+        value: item.industry,
+        type: 'line' as const,
+        color: `hsl(${(index * 25) % 360}, 75%, 55%)`,
+      }))
   }, [data])
 
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (active && payload && payload.length) {
       return (
-        <div className="bg-white border border-gray-300 rounded-lg shadow-lg p-3 text-sm max-w-xs">
-          <p className="font-bold mb-2">{label}</p>
+        <div className="bg-white border border-gray-200 rounded-lg shadow-xl p-4 text-sm max-w-md">
+          <p className="font-bold text-lg mb-3 border-b pb-2">{label}</p>
           {payload
+            .filter((p: any) => p.value != null)
             .sort((a: any, b: any) => b.value - a.value)
             .map((entry: any, i: number) => (
-              <p key={i} className="flex justify-between gap-4">
-                <span>{entry.name}</span>
+              <div key={i} className="flex justify-between gap-6 py-0.5">
+                <span className="font-medium">{entry.name}</span>
                 <span className="font-mono text-blue-600">
-                  {entry.value?.toLocaleString() || 0} 百万円
+                  {Number(entry.value).toLocaleString()} 百万円
                 </span>
-              </p>
+              </div>
             ))}
         </div>
       )
@@ -89,55 +86,43 @@ export default function MarketCapByIndustryChart({ data, startDate, endDate }: P
     return null
   }
 
-  if (chartData.length === 0) {
-    return <div className="text-center py-12 text-gray-500">データがありません</div>
-  }
-
   return (
     <div className="bg-white rounded-xl shadow p-6">
       <div className="mb-6">
         <h2 className="text-2xl font-bold text-gray-800">業種別時価総額の推移</h2>
-        <p className="text-sm text-gray-500 mt-1">
-          {startDate} ～ {endDate}
-        </p>
+        <p className="text-sm text-gray-500 mt-1">{startDate} ～ {endDate}</p>
       </div>
 
-      <ResponsiveContainer width="100%" height={600}>
-        <LineChart data={chartData} margin={{ top: 20, right: 30, bottom: 20, left: 40 }}>
-          <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-          
+      <ResponsiveContainer width="100%" height={620}>
+        <LineChart data={chartData} margin={{ top: 20, right: 40, bottom: 10, left: 20 }}>
+          <CartesianGrid strokeDasharray="3 3" stroke="#f1f1f1" />
           <XAxis dataKey="date" />
-          
-          <YAxis 
-            tickFormatter={(value) => `${(value / 1_000_000).toFixed(1)}兆`}
-          />
+          <YAxis tickFormatter={(v) => `${(v / 1_000_000).toFixed(1)}兆`} />
 
           <Tooltip content={<CustomTooltip />} />
 
-          {/* 凡例を上部に配置 + 順序を固定 */}
           <Legend
             verticalAlign="top"
             align="center"
             payload={legendPayload}
             wrapperStyle={{
-              paddingBottom: 20,
+              paddingBottom: 25,
               fontSize: '13px',
-              maxHeight: '180px',
-              overflow: 'auto',
+              maxHeight: '200px',
+              overflowY: 'auto',
             }}
           />
 
-          {/* 各業種のライン（上位のものだけ描画） */}
-          {legendPayload.map((entry, index) => (
+          {legendPayload.map((entry) => (
             <Line
               key={entry.value}
               type="monotone"
               dataKey={entry.value}
-              name={entry.value}
-              stroke={`hsl(${(index * 30) % 360}, 70%, 50%)`}
+              stroke={entry.color}
               strokeWidth={2.5}
               dot={{ r: 3 }}
-              activeDot={{ r: 5 }}
+              activeDot={{ r: 6 }}
+              name={entry.value}
             />
           ))}
         </LineChart>
