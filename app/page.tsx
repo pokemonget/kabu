@@ -135,4 +135,63 @@ export default function Home() {
         </div>
         <div className="card">
           <h3 className="text-sm font-semibold text-gray-600">最新更新</h3>
-          <p className="text-2xl font-bold text
+          <p className="text-2xl font-bold text-jpx-secondary">{endDate}</p>
+        </div>
+      </div>
+
+      {/* 日時選択 */}
+      {availableDates.length > 1 && (
+        <DateRangePicker
+          onDateRangeChange={handleDateRangeChange}
+          availableDates={availableDates}
+        />
+      )}
+
+      {/* グラフ */}
+      <div className="space-y-6">
+        {marketCapByIndustry.length > 0 && (
+          <MarketCapByIndustryChart
+            data={marketCapByIndustry}
+            startDate={startDate}
+            endDate={endDate}
+          />
+        )}
+
+        {marketCapRanking.length > 0 && (
+          <MarketCapRankingChart
+            data={marketCapRanking}
+            startDate={startDate}
+            endDate={endDate}
+          />
+        )}
+
+        {perPbrStats.length > 0 && (
+          <>
+            <PerPbrStatsChart
+              data={perPbrStats}
+              startDate={startDate}
+              endDate={endDate}
+              metric="per"
+            />
+            <PerPbrStatsChart
+              data={perPbrStats}
+              startDate={startDate}
+              endDate={endDate}
+              metric="pbr"
+            />
+          </>
+        )}
+      </div>
+
+      {/* 注釈 */}
+      <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-8">
+        <h3 className="text-sm font-semibold text-blue-900 mb-2">📌 使用方法</h3>
+        <ul className="text-sm text-blue-800 space-y-1">
+          <li>✓ 期間選択で分析対象の月度を指定できます</li>
+          <li>✓ グラフの凡例をクリックして特定の項目を表示/非表示にできます</li>
+          <li>✓ データは毎月自動更新されます</li>
+        </ul>
+      </div>
+    </div>
+  )
+}
