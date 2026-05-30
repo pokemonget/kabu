@@ -12,11 +12,13 @@ interface MarketCapData {
   market_cap: number
 }
 
+// RankingDataを柔軟に（company/name 両対応）
 interface RankingData {
   date: string
   rank: number
   code?: string
-  name: string
+  name?: string
+  company?: string
   market_cap: number
 }
 
@@ -37,7 +39,6 @@ export default function Home() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  // データをフェッチ
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -56,12 +57,13 @@ export default function Home() {
         let ranking = await rankingRes.json()
         const perPbr = await perPbrRes.json()
 
-        // scraper.pyの出力形式に合わせる
+        // データ形式の変換（name / company 両対応）
         ranking = ranking.map((item: any) => ({
           date: item.date,
           rank: item.rank,
           code: item.code,
-          name: item.name || item.company || '不明',
+          name: item.name || item.company,
+          company: item.company || item.name,
           market_cap: item.market_cap
         }))
 
@@ -70,9 +72,9 @@ export default function Home() {
         setPerPbrStats(perPbr)
 
         const allDates = new Set<string>()
-        industry.forEach((item: MarketCapData) => allDates.add(item.date))
-        ranking.forEach((item: RankingData) => allDates.add(item.date))
-        perPbr.forEach((item: PerPbrData) => allDates.add(item.date))
+        industry.forEach((item: any) => allDates.add(item.date))
+        ranking.forEach((item: any) => allDates.add(item.date))
+        perPbr.forEach((item: any) => allDates.add(item.date))
 
         const sortedDates = Array.from(allDates).sort()
         setAvailableDates(sortedDates)
@@ -121,13 +123,10 @@ export default function Home() {
 
   return (
     <div className="space-y-6">
-      {/* 統計情報 */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <div className="card">
           <h3 className="text-sm font-semibold text-gray-600">利用可能な期間</h3>
-          <p className="text-2xl font-bold text-jpx-primary">
-            {availableDates.length} ヶ月
-          </p>
+          <p className="text-2xl font-bold text-jpx-primary">{availableDates.length} ヶ月</p>
         </div>
         <div className="card">
           <h3 className="text-sm font-semibold text-gray-600">開始日</h3>
@@ -139,7 +138,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 日時選択 */}
       {availableDates.length > 1 && (
         <DateRangePicker
           onDateRangeChange={handleDateRangeChange}
@@ -147,7 +145,6 @@ export default function Home() {
         />
       )}
 
-      {/* グラフ */}
       <div className="space-y-6">
         {marketCapByIndustry.length > 0 && (
           <MarketCapByIndustryChart
@@ -167,23 +164,12 @@ export default function Home() {
 
         {perPbrStats.length > 0 && (
           <>
-            <PerPbrStatsChart
-              data={perPbrStats}
-              startDate={startDate}
-              endDate={endDate}
-              metric="per"
-            />
-            <PerPbrStatsChart
-              data={perPbrStats}
-              startDate={startDate}
-              endDate={endDate}
-              metric="pbr"
-            />
+            <PerPbrStatsChart data={perPbrStats} startDate={startDate} endDate={endDate} metric="per" />
+            <PerPbrStatsChart data={perPbrStats} startDate={startDate} endDate={endDate} metric="pbr" />
           </>
         )}
       </div>
 
-      {/* 注釈 */}
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mt-8">
         <h3 className="text-sm font-semibold text-blue-900 mb-2">📌 使用方法</h3>
         <ul className="text-sm text-blue-800 space-y-1">
