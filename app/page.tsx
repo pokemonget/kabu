@@ -23,9 +23,9 @@ interface RankingData {
 interface PerPbrData {
   date: string
   category: string
-  per?: number
-  pbr?: number
-  extra_info?: string   // ← 追加
+  per: number | null
+  pbr: number | null
+  extra_info?: string
 }
 
 export default function Home() {
@@ -54,9 +54,9 @@ export default function Home() {
 
         const industry = await industryRes.json()
         let rankingRaw = await rankingRes.json()
-        const perPbrRaw = await perPbrRes.json()
+        let perPbrRaw = await perPbrRes.json()
 
-        // データ変換
+        // Rankingデータ変換
         const ranking = rankingRaw.map((item: any) => ({
           date: item.date,
           rank: Number(item.rank),
@@ -65,11 +65,12 @@ export default function Home() {
           market_cap: Number(item.market_cap)
         }))
 
+        // PER/PBRデータ変換（null対応）
         const perPbr = perPbrRaw.map((item: any) => ({
           date: item.date,
           category: item.category || '全体',
-          per: item.per,
-          pbr: item.pbr,
+          per: item.per != null ? Number(item.per) : null,
+          pbr: item.pbr != null ? Number(item.pbr) : null,
           extra_info: item.extra_info
         }))
 
