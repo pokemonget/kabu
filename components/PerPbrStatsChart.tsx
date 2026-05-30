@@ -17,7 +17,7 @@ interface PerPbrData {
   category: string
   per: number
   pbr: number
-  extra_info: string
+  extra_info?: string   // ← オプションに変更（? を付ける）
 }
 
 interface PerPbrStatsChartProps {
