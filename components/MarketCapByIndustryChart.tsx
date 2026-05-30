@@ -58,9 +58,9 @@ export default function MarketCapByIndustryChart({ data, startDate, endDate }: P
       }))
   }, [data])
 
-  // 正しい兆単位表示（円 → 兆円変換）
+  // 1円単位 → 兆円変換
   const formatYAxis = (value: number) => {
-    const trillion = value / 100_000_000_000   // 円単位 → 兆円
+    const trillion = value / 1_000_000_000_000
     return `${trillion.toFixed(1)}兆`
   }
 
@@ -76,7 +76,7 @@ export default function MarketCapByIndustryChart({ data, startDate, endDate }: P
               <div key={i} className="flex justify-between gap-6 py-0.5">
                 <span className="font-medium">{entry.name}</span>
                 <span className="font-mono text-blue-600">
-                  {(Number(entry.value) / 10_000_000).toFixed(1)} 兆円
+                  {(Number(entry.value) / 1_000_000_000_000).toFixed(2)} 兆円
                 </span>
               </div>
             ))}
