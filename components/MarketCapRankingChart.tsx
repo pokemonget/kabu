@@ -33,11 +33,12 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
   const chartData = useMemo(() => {
     if (!data || data.length === 0) return []
 
+    // 最新月のデータを使用（startDate/endDateは表示用に保持）
     const latestDate = [...new Set(data.map(d => d.date))].sort().reverse()[0]
 
     return data
       .filter(item => item.date === latestDate && item.rank <= topN)
-      .sort((a, b) => a.rank - b.rank) // 順位順（1位が上）
+      .sort((a, b) => a.rank - b.rank) // 順位順
   }, [data, topN])
 
   // 1円単位 → 兆円変換
@@ -46,7 +47,7 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
     return `${trillion.toFixed(1)}兆`
   }
 
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  const CustomTooltip = ({ active, payload }: any) => {
     if (active && payload && payload.length) {
       const item = payload[0].payload
       return (
@@ -68,12 +69,13 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
       <div className="flex items-center justify-between mb-6">
         <div>
           <h2 className="text-2xl font-bold text-gray-800">時価総額ランキング</h2>
-          <p className="text-sm text-gray-500 mt-1">最新集計: {chartData[0]?.date}</p>
+          <p className="text-sm text-gray-500 mt-1">
+            集計期間: {startDate} ～ {endDate}（最新月表示）
+          </p>
         </div>
 
-        {/* Top N 選択 */}
         <div className="flex items-center gap-3">
-          <span className="text-sm text-gray-600">表示件数:</span>
+          <span className="text-sm text-gray-600">表示:</span>
           <select
             value={topN}
             onChange={(e) => setTopN(Number(e.target.value))}
