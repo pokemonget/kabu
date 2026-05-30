@@ -56,10 +56,13 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
     })
   }, [data, startDate, endDate, topN])
 
-  // 100円単位 → 兆円変換
+  // ★★★ 百万円単位 → 兆円変換 ★★★
+  const toTrillion = (value: number) => {
+    return value / 1_000_000   // 百万円単位を兆円に変換
+  }
+
   const formatYAxis = (value: number) => {
-    const trillion = value / 10_000_000_000   // 100円単位を考慮
-    return `${trillion.toFixed(1)}兆`
+    return `${toTrillion(value).toFixed(1)}兆`
   }
 
   const CustomTooltip = ({ active, payload, label }: any) => {
@@ -74,7 +77,7 @@ export default function MarketCapRankingChart({ data, startDate, endDate }: Prop
               <div key={i} className="flex justify-between gap-6 py-0.5">
                 <span className="font-medium">{entry.name}</span>
                 <span className="font-mono text-blue-600">
-                  {(Number(entry.value) / 10_000_000_000).toFixed(2)} 兆円
+                  {toTrillion(Number(entry.value)).toFixed(2)} 兆円
                 </span>
               </div>
             ))}
