@@ -16,7 +16,7 @@ interface RankingData {
   date: string
   rank: number
   code?: string
-  company: string     // ← 必須に統一
+  company: string
   market_cap: number
 }
 
@@ -25,6 +25,7 @@ interface PerPbrData {
   category: string
   per?: number
   pbr?: number
+  extra_info?: string   // ← 追加
 }
 
 export default function Home() {
@@ -53,15 +54,23 @@ export default function Home() {
 
         const industry = await industryRes.json()
         let rankingRaw = await rankingRes.json()
-        const perPbr = await perPbrRes.json()
+        const perPbrRaw = await perPbrRes.json()
 
         // データ変換
         const ranking = rankingRaw.map((item: any) => ({
           date: item.date,
           rank: Number(item.rank),
           code: item.code,
-          company: item.name || item.company || '不明',   // companyフィールドを確実に作成
+          company: item.name || item.company || '不明',
           market_cap: Number(item.market_cap)
+        }))
+
+        const perPbr = perPbrRaw.map((item: any) => ({
+          date: item.date,
+          category: item.category || '全体',
+          per: item.per,
+          pbr: item.pbr,
+          extra_info: item.extra_info
         }))
 
         setMarketCapByIndustry(industry)
