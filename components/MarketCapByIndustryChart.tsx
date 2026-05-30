@@ -25,16 +25,26 @@ interface Props {
 }
 
 export default function MarketCapByIndustryChart({ data, startDate, endDate }: Props) {
-  // 最新月のデータのみ使用 + 時価総額降順ソート
+  // 日付範囲を考慮してフィルタリング（親コンポーネントと連携）
   const chartData = useMemo(() => {
     if (!data || data.length === 0) return []
 
-    const latestDate = [...new Set(data.map((d) => d.date))].sort().reverse()[0]
+    let filtered = data
 
-    return data
+    // 日付範囲でフィルタ（指定があれば適用）
+    if (startDate && endDate) {
+      filtered = data.filter(item => 
+        item.date >= startDate && item.date <= endDate
+      )
+    }
+
+    // 最新月のデータを使用（複数月ある場合は最新月のみ）
+    const latestDate = [...new Set(filtered.map((d) => d.date))].sort().reverse()[0]
+
+    return filtered
       .filter((item) => item.date === latestDate)
-      .sort((a, b) => b.market_cap - a.market_cap) // 時価総額が大きい順
-  }, [data])
+      .sort((a, b) => b.market_cap - a.market_cap) // 時価総額降順
+  }, [data, startDate, endDate])
 
   const CustomTooltip = ({ active, payload }: any) => {
     if (active && payload && payload.length) {
@@ -60,7 +70,9 @@ export default function MarketCapByIndustryChart({ data, startDate, endDate }: P
       <div className="flex items-center justify-between mb-6">
         <div>
           <h2 className="text-2xl font-bold text-gray-800">業種別時価総額</h2>
-          <p className="text-sm text-gray-500 mt-1">最新集計: {chartData[0]?.date}</p>
+          <p className="text-sm text-gray-500 mt-1">
+            集計期間: {startDate} ～ {endDate}（最新月表示）
+          </p>
         </div>
         <div className="text-sm text-gray-500">単位：百万円</div>
       </div>
@@ -87,7 +99,6 @@ export default function MarketCapByIndustryChart({ data, startDate, endDate }: P
 
           <Tooltip content={<CustomTooltip />} />
 
-          {/* 凡例を上部に縦並びで表示 */}
           <Legend
             verticalAlign="top"
             align="center"
