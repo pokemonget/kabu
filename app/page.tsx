@@ -25,7 +25,7 @@ interface PerPbrData {
   category: string
   per: number | null
   pbr: number | null
-  extra_info?: string   // オプションのまま
+  extra_info?: string
 }
 
 export default function Home() {
@@ -56,7 +56,6 @@ export default function Home() {
         let rankingRaw = await rankingRes.json()
         let perPbrRaw = await perPbrRes.json()
 
-        // Rankingデータ変換
         const ranking = rankingRaw.map((item: any) => ({
           date: item.date,
           rank: Number(item.rank),
@@ -65,7 +64,6 @@ export default function Home() {
           market_cap: Number(item.market_cap)
         }))
 
-        // PER/PBRデータ変換
         const perPbr = perPbrRaw.map((item: any) => ({
           date: item.date,
           category: item.category || '全体',
@@ -79,9 +77,9 @@ export default function Home() {
         setPerPbrStats(perPbr)
 
         const allDates = new Set<string>()
-        industry.forEach((item: any) => allDates.add(item.date))
-        ranking.forEach((item: any) => allDates.add(item.date))
-        perPbr.forEach((item: any) => allDates.add(item.date))
+        ;[...industry, ...ranking, ...perPbr].forEach(item => {
+          if (item.date) allDates.add(item.date)
+        })
 
         const sortedDates = Array.from(allDates).sort()
         setAvailableDates(sortedDates)
@@ -106,16 +104,7 @@ export default function Home() {
     setEndDate(newEndDate)
   }
 
-  if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="text-center">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-jpx-primary"></div>
-          <p className="mt-4 text-gray-600">データを読み込み中...</p>
-        </div>
-      </div>
-    )
-  }
+  if (loading) return <div className="flex items-center justify-center min-h-screen"><div className="text-center"><div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-jpx-primary"></div><p className="mt-4 text-gray-600">データを読み込み中...</p></div></div>
 
   if (error || availableDates.length === 0) {
     return (
@@ -146,43 +135,16 @@ export default function Home() {
       </div>
 
       {availableDates.length > 1 && (
-        <DateRangePicker
-          onDateRangeChange={handleDateRangeChange}
-          availableDates={availableDates}
-        />
+        <DateRangePicker onDateRangeChange={handleDateRangeChange} availableDates={availableDates} />
       )}
 
       <div className="space-y-6">
-        {marketCapByIndustry.length > 0 && (
-          <MarketCapByIndustryChart
-            data={marketCapByIndustry}
-            startDate={startDate}
-            endDate={endDate}
-          />
-        )}
-
-        {marketCapRanking.length > 0 && (
-          <MarketCapRankingChart
-            data={marketCapRanking}
-            startDate={startDate}
-            endDate={endDate}
-          />
-        )}
-
+        {marketCapByIndustry.length > 0 && <MarketCapByIndustryChart data={marketCapByIndustry} startDate={startDate} endDate={endDate} />}
+        {marketCapRanking.length > 0 && <MarketCapRankingChart data={marketCapRanking} startDate={startDate} endDate={endDate} />}
         {perPbrStats.length > 0 && (
           <>
-            <PerPbrStatsChart 
-              data={perPbrStats} 
-              startDate={startDate} 
-              endDate={endDate} 
-              metric="per" 
-            />
-            <PerPbrStatsChart 
-              data={perPbrStats} 
-              startDate={startDate} 
-              endDate={endDate} 
-              metric="pbr" 
-            />
+            <PerPbrStatsChart data={perPbrStats} startDate={startDate} endDate={endDate} metric="per" />
+            <PerPbrStatsChart data={perPbrStats} startDate={startDate} endDate={endDate} metric="pbr" />
           </>
         )}
       </div>
