@@ -1,73 +1,78 @@
-name: Update JPX Statistics Data
+name: Hoyo Vacancy Monitor
 
 on:
-  # 毎月7日の午前3時（UTC+9 = JST）に実行
-  # GitHub Actionsは UTC を使用するため、JSTの午前3時 = UTC の前日18時
   schedule:
-    - cron: '0 18 6 * *'  # 毎月6日18時 UTC（7日午前3時 JST）
-  
-  # 手動トリガー用
+    - cron: '*/5 * * * *'
   workflow_dispatch:
+    inputs:
+      force_email_test:
+        description: 'テストメールを送る（通知確認用）'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
+
+permissions:
+  contents: write
 
 jobs:
-  update-data:
+  monitor:
     runs-on: ubuntu-latest
-    
-    strategy:
-      matrix:
-        python-version: ['3.10']
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 全履歴を取得（差分検出用）
-      
-      - name: Set up Python
-        uses: actions/setup-python@v4
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: ${{ matrix.python-version }}
-      
+          node-version: '20'
+          cache: 'npm'
+
       - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Hoyo vacancy monitor
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
+          GMAIL_USER: ${{ secrets.EMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          FORCE_EMAIL_TEST: ${{ github.event.inputs.force_email_test || 'false' }}
+        run: node scripts/hoyo_vacancy_scraper.mjs
+
+      - name: Check for data changes
+        id: changes
         run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 pandas openpyxl
-      
-      - name: Run scraper
-        run: python scripts/scraper.py
-      
-      - name: Check for changes
-        id: check_changes
-        run: |
-          if git diff --quiet public/data/; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+          if git diff --quiet -- public/data/hakone_vacancy.json; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
-      
-      - name: Configure git
-        if: steps.check_changes.outputs.has_changes == 'true'
+
+      - name: Commit JSON updates
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
-          git config --global user.name "JPX Data Bot"
-          git config --global user.email "bot@jpx-stats.local"
-      
-      - name: Commit and push changes
-        if: steps.check_changes.outputs.has_changes == 'true'
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/hakone_vacancy.json
+          git commit -m "chore: update vacancy monitor snapshot $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push origin HEAD:${GITHUB_REF_NAME}
+
+      - name: Write summary
         run: |
-          git add public/data/*.json
-          git commit -m "chore: update JPX statistics data $(date +'%Y-%m-%d')"
-          git push origin main
-      
-      - name: Notify - No changes
-        if: steps.check_changes.outputs.has_changes == 'false'
-        run: echo "No data changes detected. Skipping commit."
-      
-      - name: Create run summary
-        run: |
-          echo "## JPX Data Update" >> $GITHUB_STEP_SUMMARY
-          echo "- Timestamp: $(date -u)" >> $GITHUB_STEP_SUMMARY
-          if [ "${{ steps.check_changes.outputs.has_changes }}" = "true" ]; then
-            echo "- Status: ✅ Data updated" >> $GITHUB_STEP_SUMMARY
+          echo "## Vacancy monitor" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Timestamp: $(date -u)" >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.changes.outputs.has_changes }}" = "true" ]; then
+            echo "- Status: ✅ data updated" >> "$GITHUB_STEP_SUMMARY"
           else
-            echo "- Status: ℹ️ No changes" >> $GITHUB_STEP_SUMMARY
+            echo "- Status: ℹ️ no change" >> "$GITHUB_STEP_SUMMARY"
           fi
